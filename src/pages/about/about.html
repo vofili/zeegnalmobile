@@ -1,11 +1,123 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      About
-    </ion-title>
+
+    <ion-title>New Zeegnal</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  
   </ion-navbar>
+  <!-- 
+  <ion-navbar>
+    <ion-title>Zeegnal</ion-title>
+  </ion-navbar> 
+  -->
 </ion-header>
 
-<ion-content padding>
+<ion-content>
+  <ion-slides #createformslider style="margin-top:80px"  (ionSlideDidChange)="slideChanged()" (ionSlideTap)="loadComms()">
+    <ion-slide>
+          <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>
+
+        <form [formGroup]="createInviteForm">
+          <ion-list>
+          <ion-item>
+                <ion-label floating style="font-weight:200">Guest Phone Number</ion-label>
+                <ion-input formControlName="userphone" type="tel" style="font-weight:200"></ion-input>
+          </ion-item>
+              <ion-item no-lines>
+                <button ion-button (click)="checkPhoneBook()">Check Phonebook</button>
+              </ion-item>
+          <ion-item>
+            <ion-label style="font-weight:200;" floating>Community</ion-label>
+            <ion-select formControlName="community"  no-padding style="font-weight:200;">
+              <ion-option  *ngFor="let citem of communities" [value]="citem.zeegnalcode">{{citem.name}}</ion-option>
+            </ion-select>
+          </ion-item>
+            <ion-item no-lines>
+                  <button ion-button color="uniformgrey" (click)="slideNext()" style="width:80px">Send</button>
+            </ion-item>
+          </ion-list>
+      </form>
+    </ion-slide>
+        
+    <ion-slide>
+      <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>
+      <form [formGroup]="supplyUserDetailsForm">
+        <ion-item>
+          <ion-label floating style="font-weight:200;">First Name</ion-label>
+          <ion-input formControlName="firstname" type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label floating style="font-weight:200;">Last Name</ion-label>
+          <ion-input formControlName="lastname" type="text"></ion-input>
+        </ion-item>
+
+          <ion-item no-lines>
+                  <button ion-button item-start color="uniformgrey"  (click)="slidePrev()"  style="width:80px">Back</button>
+                  <button ion-button item-end color="uniformgrey"  (click)="slideNext()"  style="width:80px">Next</button>
+              </ion-item>
+      </form>
+    </ion-slide>
+    <ion-slide>
+      <form [formGroup]="supplydateForm">
+        <ion-row>
+          <ion-col col-6>
+    <ion-item>
+          <ion-label floating style="font-weight:200;">Arrival Day</ion-label>
+          <ion-datetime formControlName="startday" displayFormat="MMM DD YYYY" pickerFormat="MMM DD YYYY" padding></ion-datetime>
+        </ion-item>
+          </ion-col>
+          <ion-col col-6>
+ <ion-item>
+          <ion-label floating style="font-weight:200;"> Time</ion-label>
+          <ion-datetime formControlName="starttime" displayFormat="HH:mm:ss" pickerFormat="HH:mm:ss" padding></ion-datetime>
+        </ion-item>
+          </ion-col>
+        
+        </ion-row>
+         <ion-row>
+           <ion-col col-6>
+        <ion-item>
+          <ion-label floating style="font-weight:200;"> Till Date</ion-label>
+          <ion-datetime formControlName="endday" displayFormat="MMM DD YYYY" pickerFormat="MMM DD YYYY" padding></ion-datetime>
+        </ion-item>
+           </ion-col>
+            <ion-col col-6>
+          <ion-item>
+          <ion-label floating style="font-weight:200;"> Time</ion-label>
+          <ion-datetime formControlName="endtime" displayFormat="HH:mm:ss" pickerFormat="HH:mm:ss" padding></ion-datetime>
+        </ion-item>
+      </ion-col>
+        
+         </ion-row>
+       
+        <ion-item no-lines>
+                  <button ion-button item-start color="uniformgrey"  (click)="slidePrev()"  style="width:80px">Back</button>
+
+                  <button ion-button item-end color="uniformgrey"  (click)="createZeegnal()"  style="width:100px">Confirm</button>
+              </ion-item>
+      </form>
+    </ion-slide>
+
+  </ion-slides>
+
+<!-- <form [formGroup]="createform">
+      <ion-item>
+      <ion-label floating>Phone Number</ion-label>
+      <ion-input formControlName="phonenumber" type="number"></ion-input>
+      </ion-item>
+      <ion-item>
+      <ion-label floating>First Name</ion-label>
+      <ion-input formControlName="firstname" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+      <ion-label floating>Last Name</ion-label>
+      <ion-input formControlName="lastname" type="text"></ion-input>
+      </ion-item>
+</form> -->
+
 
 </ion-content>

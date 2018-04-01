@@ -1,0 +1,53 @@
+<!--
+  Generated template for the RequestdetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Request</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+
+<ion-content padding>
+
+			<div class="vertical-center txt-center">
+						
+              <span class="txt-center" style="font-size:12px;text-transform: uppercase;">Your sent invitation to {{parObj.tofirstname}}  {{parObj.tolastname}}<br/> visiting {{parObj.name}}</span>
+              
+      
+      <ion-row data-transation="fadeInDown" data-start-time="400">
+      <ion-item text-center no-padding>
+      <ngx-qrcode [qrc-value] ="hashstring" qrc-class ="aclass" qrc-errorCorrectionLevel="L"></ngx-qrcode>
+      <span text-center class="text2 txt-light" style="font-size:12px;display:block;margin-top:5px;color:#04679b;font-weight:500">Access Code: 
+        {{parObj.reference}}</span>
+    </ion-item>
+    </ion-row>
+   
+							<div style="margin-top: 20px;">
+                <span text-left class="text2 block txt-light" style="font-size:14px">{{parObj.tofirstname}}  {{parObj.tolastname}} is visiting you</span>
+              <hr/>
+              <span text-left  *ngIf="!arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> {{parObj.tofirstname}}  {{parObj.tolastname}} has had access since {{startdate}}</span>
+               <span text-left *ngIf="arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> {{parObj.tofirstname}}  {{parObj.tolastname}} will have access from {{startdate}}</span>
+              <hr/>
+              <span text-left class="text2 block txt-light" style="font-size:14px"> This invitation expires  {{enddate}}</span>
+              <hr/>
+              <span text-left class="text2 block txt-light" style="font-size:14px"> This invitation is {{parObj.invitestatus}}</span>
+              <hr/>
+             
+							</div>
+						
+					</div>
+
+
+</ion-content>

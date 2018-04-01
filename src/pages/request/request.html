@@ -1,0 +1,28 @@
+<ion-content>
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+  <ion-list no-lines>
+  <ion-item  *ngFor ="let inviteitem of receivedarray" (click)="gotorequestdetail(inviteitem)" style="border-bottom:0.25px solid #c8c7cc;">
+    <ion-avatar item-start >
+         <ngx-avatar name="{{inviteitem.tofirstname}} {{inviteitem.tolastname}}"></ngx-avatar>
+  </ion-avatar>
+    <h2 style="font-weight:bold;font-size: 14px;">{{inviteitem.tofirstname}} {{inviteitem.tolastname}}</h2>
+        <span style="font-size:10px;font-size: 10px;position: absolute;top: 8px;
+    left: 220px;color: rgba(0, 0, 0, 0.5)" item-end>
+      <i style="padding-right:2px" class="fa fa-clock-o"></i>
+     {{inviteitem.createdat | date:'shortTime'}} {{calctimeleft(inviteitem.createdat)}}</span>
+    <p style="font-size:12px">{{inviteitem.tophonenumber}}</p>
+    <p style="font-size:12px">{{inviteitem.name}}</p>
+    </ion-item>
+  </ion-list>
+
+  <ion-fab right bottom>
+    <button ion-fab color="light" (click)="createNewInvite()">  <ion-icon ios="ios-add" md="md-add"></ion-icon></button>
+    <!-- <ion-fab-list side="left">
+      <button ion-fab><ion-icon ios="ios-add" md="md-add" ></ion-icon></button>
+    </ion-fab-list> -->
+  </ion-fab>
+
+
+</ion-content>

@@ -1,17 +1,13 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Contact
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
+<ion-content padding>
+ 
+  <ion-list  *ngFor =" let inviteitem of receivedarray">
+  <ion-item>
+  <ion-avatar item-start>
+    <ngx-avatar  name="{{inviteitem.fromlastname}} {{inviteitem.fromfirstname}}"></ngx-avatar>
+    </ion-avatar>
+    <h2 style="font-weight:bold;font-size: 14px;">{{inviteitem.fromlastname}} {{inviteitem.fromfirstname}}</h2>
+    <p style="font-size:12px">{{inviteitem.fromphonenumber}}</p>
+    <p style="font-size:12px">{{inviteitem.name}}</p>
     </ion-item>
   </ion-list>
 </ion-content>

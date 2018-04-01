@@ -1,17 +1,35 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content >
+<!-- <div>
+<ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+</div> -->
+<ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+  <ion-list no-lines>
+     <!-- <ion-item>{{(myjson | async)?.results[0].name.first}}</ion-item> -->
+  <ion-item *ngFor =" let inviteitem of allinvitationobj" (click)="gotoinvitedetail(inviteitem)" style="border-bottom:0.25px solid #c8c7cc;">
+    <!-- <ion-avatar item-start>
+      <ngx-qrcode [qrc-value]= "inviteitem.hashstring" qrc-class = "aclass"  qrc-errorCorrectionLevel = "L"></ngx-qrcode>
+    </ion-avatar> -->
+    <ion-avatar item-start>
+        <ngx-avatar  name="{{inviteitem.fromlastname}} {{inviteitem.fromfirstname}}"></ngx-avatar>
+    </ion-avatar>
+    <h2 style="font-weight:bold;font-size: 14px;">{{inviteitem.fromlastname}} {{inviteitem.fromfirstname}}</h2>
+    <span style="font-size:10px;font-size: 10px;position: absolute;top: 8px;
+    left: 210px;color: rgba(0, 0, 0, 0.5)" item-end>
+      <i style="padding-right:2px" class="fa fa-clock-o"></i>
+     {{inviteitem.createdat | date:'shortTime'}} {{calctimeleft(inviteitem.createdat)}}</span>
+    <p style="font-size:12px">{{inviteitem.fromphonenumber}}</p>
+    <p style="font-size:12px">{{inviteitem.name}}</p>
+  </ion-item>
+</ion-list>
+
+ <ion-fab right bottom>
+    <button ion-fab color="light"><ion-icon ios="ios-unlock" md="md-unlock"></ion-icon></button>
+    <ion-fab-list side="left">
+      <button ion-fab (click)="qrcodescan()"><ion-icon ios="ios-qr-scanner" md="md-qr-scanner" ></ion-icon></button>
+      <button ion-fab (click)="gotoentercode()"> <ion-icon ios="ios-settings" md="md-settings"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
 </ion-content>

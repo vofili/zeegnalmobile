@@ -1,6 +1,6 @@
 {
   "name": "zeegnaltabdemo",
-  "app_id": "",
+  "app_id": "70125b20",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}

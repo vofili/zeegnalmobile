@@ -1,0 +1,48 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Invite</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+			<div class="vertical-center txt-center">
+						
+              <span class="txt-center" style="font-size:12px;text-transform: uppercase;">Your invite to {{parObj.name}}</span>
+              
+      
+      <ion-row data-transation="fadeInDown" data-start-time="400">
+      <ion-item text-center no-padding>
+      <ngx-qrcode [qrc-value] ="hashstring" qrc-class ="aclass" qrc-errorCorrectionLevel="L"></ngx-qrcode>
+      <span text-center class="text2 txt-light" style="font-size:10px">Show this on arrival<i class="fa fa-arrow-up" style="margin-left:5px"></i> </span>
+      <span text-center class="text2 txt-light" style="font-size:12px;display:block;margin-top:5px;color:#04679b;font-weight:500">Or use access Code: 
+        {{parObj.reference}}</span>
+    </ion-item>
+    </ion-row>
+   
+							<div style="margin-top: 20px;">
+                <span text-left class="text2 block txt-light" style="font-size:14px">You are Visting {{parObj.fromfirstname}}  {{parObj.fromlastname}}</span>
+              <hr/>
+              <span text-left  *ngIf="!arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> You had access since {{startdate}}</span>
+               <span text-left *ngIf="arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> You have access from {{startdate}}</span>
+              <hr/>
+              <span text-left class="text2 block txt-light" style="font-size:14px"> But be there before {{enddate}}</span>
+              <hr/>
+              <span text-left class="text2 block txt-light" style="font-size:14px"> This invite is {{parObj.invitestatus}}</span>
+              <hr/>
+             
+							</div>
+						
+					</div>
+
+
+</ion-content>
+

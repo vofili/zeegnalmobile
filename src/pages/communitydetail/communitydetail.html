@@ -1,0 +1,61 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{parObj.name}}</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content >
+
+			<div class="vertical-center txt-center">
+						
+              <!-- <span class="txt-center" style="font-size:12px;text-transform: uppercase;margin-top:30px">Welcome to {{parObj.name}}</span> -->
+              
+      
+      <ion-row data-transation="fadeInDown" data-start-time="400">
+      <ion-item text-center no-padding>
+      <ngx-qrcode [qrc-value] ="parObj.createdat + parObj.createdat" qrc-class ="aclass" qrc-errorCorrectionLevel="L"></ngx-qrcode>
+      <span text-center class="text2 txt-light" style="font-size:10px">Community Center QR access Code<i class="fa fa-arrow-up" style="margin-left:5px"></i> </span>
+      <span text-center class="text2 txt-light" style="font-size:12px;display:block;margin-top:5px;color:#04679b;font-weight:500">{{parObj.name}}: 
+        {{parObj.zeegnalcode}}</span>
+    </ion-item>
+    </ion-row>
+   <div style="margin-top: 10px;text-align:left">
+    <ion-list inset>
+   
+  <button ion-item>
+   Make Payments <!--<i style="padding-left:5px" class="fa fa-angle-double-right"></i> --> 
+  </button> 
+<button ion-item>
+  Market Place <!--<i style="padding-left:5px" class="fa fa-angle-double-right"></i> --> 
+  </button> 
+ <button ion-item>
+  Complaints <!-- <i style="padding-left:5px" class="fa fa-angle-double-right"></i> -->
+  </button> 
+  <button ion-item>
+  Invitations <!-- <i style="padding-left:5px" class="fa fa-angle-double-right"></i> -->
+  </button>
+<button ion-item>
+  Elections <!-- <i style="padding-left:5px" class="fa fa-angle-double-right"></i> -->
+  </button> 
+<button ion-item>
+  Surveys  <!-- <i style="padding-left:5px" class="fa fa-angle-double-right"></i> -->
+</button> 
+
+</ion-list>
+			</div> 						
+             
+   
+						
+					</div>
+
+
+</ion-content>
+
