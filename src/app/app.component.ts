@@ -11,17 +11,21 @@ import { OneSignal } from '@ionic-native/onesignal';
 export class MyApp {
   rootPage:any = TabsPage;
 
-  constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
+  constructor(platform: Platform, statusBar: StatusBar,private onesignal: OneSignal, splashScreen: SplashScreen) {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
       statusBar.styleDefault();
       splashScreen.hide();
+      this.setupPush();
     });
   }
 
 
   setupPush(){
+    this.onesignal.startInit('138cbc9d-3730-4ce7-a3b0-eabe6c8137b3');
 
+    this.onesignal.endInit();
+    
   }
 }

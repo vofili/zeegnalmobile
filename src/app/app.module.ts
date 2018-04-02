@@ -31,7 +31,7 @@ import { AppMinimize } from '@ionic-native/app-minimize';
 import { OneSignal } from '@ionic-native/onesignal';
 // These are all imports required for Pro Client with Monitoring & Deploy,
 // feel free to merge into existing imports above.
-import { Pro, DeployInfo } from '@ionic/pro';
+import { Pro } from '@ionic/pro';
 import { Injectable, Injector } from '@angular/core';
 
 Pro.init('70125b20', {
