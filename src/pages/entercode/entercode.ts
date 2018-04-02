@@ -3,7 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { FormControl } from '@angular/forms';
 
-@IonicPage()
+
 @Component({
   selector: 'page-entercode',
   templateUrl: 'entercode.html',

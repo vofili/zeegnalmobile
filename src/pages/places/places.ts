@@ -9,7 +9,6 @@ import { IonicPage, NavController, NavParams, Events, App } from 'ionic-angular'
  * Ionic pages and navigation.
  */
 
-@IonicPage()
 @Component({
   selector: 'page-places',
   templateUrl: 'places.html',

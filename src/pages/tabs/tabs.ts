@@ -63,7 +63,7 @@ export class TabsPage {
         console.log('Tab selected', 'Index: ' + ev.index, 'Unique ID: ' + ev.id);
         if(ev.index ==0){
                     this.getinviterequestnoloading();
-                      
+                      Pro.monitoring.exception(new Error('error on select tab 1'));
         }
         if(ev.index ==1){
                      this.getinviterequestnoloading()

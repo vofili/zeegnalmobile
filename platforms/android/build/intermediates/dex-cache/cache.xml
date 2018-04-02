@@ -151,7 +151,7 @@
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="465ade5486af3cbe6b9c35b12b02a7aa981b995e">
+        sha1="d9947f3cf74f38a93edea1949eea0fb80eeeca07">
         <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-6.3.0-debug_51a623a4658e1e26ef8cc74c191cfd2ca228486e.jar" />
     </item>
     <item

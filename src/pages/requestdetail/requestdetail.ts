@@ -10,7 +10,7 @@ import { inviteobject } from './../home/home';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+
 @Component({
   selector: 'page-requestdetail',
   templateUrl: 'requestdetail.html',

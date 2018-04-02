@@ -23,9 +23,20 @@ export class MyApp {
 
 
   setupPush(){
-    this.onesignal.startInit('138cbc9d-3730-4ce7-a3b0-eabe6c8137b3');
+    console.log("running push initialisation");
+    this.onesignal.startInit('138cbc9d-3730-4ce7-a3b0-eabe6c8137b3','900625325721');
 
+    this.onesignal.handleNotificationReceived().subscribe(data => {
+      console.log("we received a push note ", data);
+    })
+
+    this.onesignal.handleNotificationOpened().subscribe(data => {
+      console.log("handle opened notification ",data);
+    })
     this.onesignal.endInit();
     
+
+
+
   }
 }
