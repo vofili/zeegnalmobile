@@ -1,0 +1,61 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-appminimize": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-contacts": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-sim": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-app-update": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-ionic": {
+      "APP_ID": "70125b20",
+      "CHANNEL_NAME": "Master",
+      "WARN_DEBUG": "true",
+      "UPDATE_API": "https://api.ionicjs.com",
+      "UPDATE_METHOD": "background",
+      "MAX_STORE": "2",
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-appversion": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    }
+  }
+}

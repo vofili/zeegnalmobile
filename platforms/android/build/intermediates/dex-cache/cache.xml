@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.1.0_07a8199e043ed9fb072204ef3e58de5702ea9341.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.1.0_e2a09418f92360923071a6d6ce911bcb18dc03a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/barcodescanner-release-2.1.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bd90253b55403aaf6ed1c913904d8bc1f19e6ff4">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-barcodescanner-release-2.1.5_22df77c31fe65b1291c209a5f4342cddebefbd76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f0f484b1a18c1676984dfea4e572ceffda2f3b78">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-11.8.0_3ae963a702b748eabc63617d77a78802577488ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-11.8.0_12c05f34bd6a0664d4a399f21c68396c909c25e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.onesignal/OneSignal/3.8.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bf6612d60ed35a3c41a708b94f83ec376c955382">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/com.onesignal-OneSignal-3.8.3_459e728bbbf92f255e41777c8ae6e7ddec421e72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-11.8.0_f169ed7b0c4ad503d7a087a801b00f047812e5ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/common-1.0.0_7ec93430c41722f7b45532063290b20fa503da8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4b7dbd963f54ff7b600c647d14ca381f110d9c9a">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-11.8.0_179eae33690632cd2241f6a3526f6836875cbdfd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.1.0_e1b22715495286c45409324378b22443244e355e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233d88c6f961d2a84758dfe27b7af61318190c7b">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-11.8.0_87c6a4eafd796255194a096bc1de4845369e39b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fe3a72bee9f9eda45a5940a278fd9c1979b14a37">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-11.8.0_1f027eb2686ce0a3b97443046e73fce92b87edc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.1.0_bb2bc1a0aacba68b6442c1bdc972db4a01513133.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.3.0/debug/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d9947f3cf74f38a93edea1949eea0fb80eeeca07">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-6.3.0-debug_51a623a4658e1e26ef8cc74c191cfd2ca228486e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_8ad04f94633833e1ba03b752af0be015201f9789.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/common-1.0.0_5b1b4fa73ea34c58499c47e4918cef6ff45e492a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.1.0_7c81027a79616b73902568bd7fc6d834066a5b02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.1.0_b88de4d60afaec7c7674a35178d6094fe32e8b40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.android.support/customtabs/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e6fff1d276738bb82cfc131c49d2e72a47dfd0aa">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-customtabs-26.1.0_7dee04c242e7272553bd60aef2ca299c87b02111.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/pre-dexed/debug/android.arch.lifecycle-runtime-1.0.0_f0bf5f25f07187bbed4219f813b3f0992e35960a.jar" />
+    </item>
+
+</items>
