@@ -9,7 +9,6 @@ import * as moment from 'moment';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
 @Component({
   selector: 'page-communitydetail',
   templateUrl: 'communitydetail.html',

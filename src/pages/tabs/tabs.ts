@@ -1,3 +1,4 @@
+import { Pro } from '@ionic/pro';
 import { PlacesPage } from './../places/places';
 import { ZeegnalserviceProvider } from './../../providers/zeegnalservice/zeegnalservice';
 import { Observable } from 'rxjs/Observable';
@@ -5,7 +6,7 @@ import { LoadingController, AlertController, NavParams } from 'ionic-angular';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { EntercodePage } from './../entercode/entercode';
 import { InvitedetailPage } from './../invitedetail/invitedetail';
-import { Component,ViewChild } from '@angular/core';
+import { Component, ViewChild, ErrorHandler} from '@angular/core';
 import { SuperTabsController, SuperTabsModule,SuperTabs } from 'ionic2-super-tabs';
 import { AboutPage } from '../about/about';
 import { ContactPage } from '../contact/contact';
@@ -130,7 +131,12 @@ export class TabsPage {
                             handler: data => {
                               console.log("number has been detected ",data.phonenumber);
                               localStorage.setItem("userphonenumber",data.phonenumber);
-                              this.getallinvitesandrequests(data.phonenumber);
+                              if(data.phonenumber && data.phonenumber.length < 10){
+                                  Pro.monitoring.log('Incorrect Phone number supplied '+data.phonenumber, { level: 'error' })
+                              }else{
+                                  this.getallinvitesandrequests(data.phonenumber);
+                              }
+                              
                              
                             }
                           }

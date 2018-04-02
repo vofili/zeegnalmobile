@@ -11,7 +11,7 @@ import * as moment from 'moment';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+
 @Component({
   selector: 'page-invitedetail',
   templateUrl: 'invitedetail.html',

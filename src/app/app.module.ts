@@ -29,6 +29,40 @@ import { ZeegnalserviceProvider } from '../providers/zeegnalservice/zeegnalservi
 import { Contacts, Contact, ContactField, ContactName } from '@ionic-native/contacts';
 import { AppMinimize } from '@ionic-native/app-minimize';
 import { OneSignal } from '@ionic-native/onesignal';
+// These are all imports required for Pro Client with Monitoring & Deploy,
+// feel free to merge into existing imports above.
+import { Pro } from '@ionic/pro';
+import { Injectable, Injector } from '@angular/core';
+
+Pro.init('70125b20', {
+  appVersion: '0.0.1'
+})
+
+@Injectable()
+export class MyErrorHandler implements ErrorHandler {
+  ionicErrorHandler: IonicErrorHandler;
+
+  constructor(injector: Injector) {
+    try {
+      this.ionicErrorHandler = injector.get(IonicErrorHandler);
+      console.log(this.ionicErrorHandler);
+    } catch(e) {
+      // Unable to get the IonicErrorHandler provider, ensure
+      // IonicErrorHandler has been added to the providers list below
+       console.log(e);
+    }
+  }
+
+  handleError(err: any): void {
+    console.log("handleError");
+    console.log(err);
+   // Pro.monitoring.handleNewError(err);
+    // Remove this if you want to disable Ionic's auto exception handling
+    // in development mode.
+    this.ionicErrorHandler && this.ionicErrorHandler.handleError(err);
+  }
+}
+
 @NgModule({
   declarations: [
     MyApp,
@@ -56,8 +90,8 @@ import { OneSignal } from '@ionic-native/onesignal';
     SplashScreen,
      BarcodeScanner,
     Sim,
-    Dialogs,
-    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    Dialogs,IonicErrorHandler,
+    {provide: ErrorHandler, useClass: MyErrorHandler},
     InvitationProvider,OneSignal,
     ZeegnalserviceProvider,Contacts, Contact,AppMinimize
   ]

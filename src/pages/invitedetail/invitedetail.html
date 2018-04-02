@@ -31,8 +31,8 @@
 							<div style="margin-top: 20px;">
                 <span text-left class="text2 block txt-light" style="font-size:14px">You are Visting {{parObj.fromfirstname}}  {{parObj.fromlastname}}</span>
               <hr/>
-              <span text-left  *ngIf="!arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> You had access since {{startdate}}</span>
-               <span text-left *ngIf="arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> You have access from {{startdate}}</span>
+              <span text-left  *ngIf="!arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> You had access {{startdate}}</span>
+               <span text-left *ngIf="arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> You will have access by {{startdate}}</span>
               <hr/>
               <span text-left class="text2 block txt-light" style="font-size:14px"> But be there before {{enddate}}</span>
               <hr/>

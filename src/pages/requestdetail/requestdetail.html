@@ -23,7 +23,7 @@
 
 			<div class="vertical-center txt-center">
 						
-              <span class="txt-center" style="font-size:12px;text-transform: uppercase;">Your sent invitation to {{parObj.tofirstname}}  {{parObj.tolastname}}<br/> visiting {{parObj.name}}</span>
+              <span class="txt-center" style="font-size:12px;text-transform: uppercase;">You invited {{parObj.tofirstname}}  {{parObj.tolastname}}<br/> to visit {{parObj.name}}</span>
               
       
       <ion-row data-transation="fadeInDown" data-start-time="400">
@@ -37,8 +37,8 @@
 							<div style="margin-top: 20px;">
                 <span text-left class="text2 block txt-light" style="font-size:14px">{{parObj.tofirstname}}  {{parObj.tolastname}} is visiting you</span>
               <hr/>
-              <span text-left  *ngIf="!arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> {{parObj.tofirstname}}  {{parObj.tolastname}} has had access since {{startdate}}</span>
-               <span text-left *ngIf="arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> {{parObj.tofirstname}}  {{parObj.tolastname}} will have access from {{startdate}}</span>
+              <span text-left  *ngIf="!arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> {{parObj.tofirstname}}  {{parObj.tolastname}} had access {{startdate}}</span>
+               <span text-left *ngIf="arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> {{parObj.tofirstname}}  {{parObj.tolastname}} will have access {{startdate}}</span>
               <hr/>
               <span text-left class="text2 block txt-light" style="font-size:14px"> This invitation expires  {{enddate}}</span>
               <hr/>
