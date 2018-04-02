@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Apr 02 01:40:30 WAT 2018
+#Mon Apr 02 02:22:25 WAT 2018
 20.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
 143.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
 340.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug/html-fr/license.html
