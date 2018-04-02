@@ -4,7 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { TabsPage } from '../pages/tabs/tabs';
-
+import { OneSignal } from '@ionic-native/onesignal';
 @Component({
   templateUrl: 'app.html'
 })
@@ -18,5 +18,10 @@ export class MyApp {
       statusBar.styleDefault();
       splashScreen.hide();
     });
+  }
+
+
+  setupPush(){
+
   }
 }
