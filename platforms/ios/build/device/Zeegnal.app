@@ -1,0 +1,1 @@
+/Users/val/Library/Developer/Xcode/DerivedData/Zeegnal-hetdolieqspxanalfeowfayqlxva/Build/Intermediates.noindex/ArchiveIntermediates/Zeegnal/InstallationBuildProductsLocation/Applications/Zeegnal.app

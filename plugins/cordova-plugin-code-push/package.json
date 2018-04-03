@@ -1,0 +1,162 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-code-push",
+        "scope": null,
+        "escapedName": "cordova-plugin-code-push",
+        "name": "cordova-plugin-code-push",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo"
+    ]
+  ],
+  "_from": "cordova-plugin-code-push@latest",
+  "_id": "cordova-plugin-code-push@1.11.9",
+  "_inCache": true,
+  "_location": "/cordova-plugin-code-push",
+  "_nodeVersion": "8.9.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-code-push_1.11.9_1522169691091_0.7243730269984048"
+  },
+  "_npmUser": {
+    "name": "toys",
+    "email": "toysruss89@gmail.com"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-code-push",
+    "scope": null,
+    "escapedName": "cordova-plugin-code-push",
+    "name": "cordova-plugin-code-push",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-code-push/-/cordova-plugin-code-push-1.11.9.tgz",
+  "_shasum": "75c5f2ff179ee68bfccbddd6e6ac4840f02603e4",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-code-push",
+  "_where": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo",
+  "author": {
+    "name": "Microsoft Corporation"
+  },
+  "bugs": {
+    "url": "https://github.com/Microsoft/cordova-plugin-code-push/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-code-push",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "CodePush Plugin for Apache Cordova",
+  "devDependencies": {
+    "@types/assert": "0.0.31",
+    "@types/cordova": "0.0.34",
+    "@types/cordova-plugin-device": "0.0.3",
+    "@types/cordova-plugin-dialogs": "0.0.3",
+    "@types/cordova-plugin-file": "0.0.3",
+    "@types/cordova-plugin-file-transfer": "0.0.3",
+    "@types/mkdirp": "^0.5.1",
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.28",
+    "@types/power-assert": "^1.4.29",
+    "@types/q": "^1.0.5",
+    "archiver": "^2.0.3",
+    "body-parser": "^1.18.1",
+    "del": "^3.0.0",
+    "express": "^4.15.4",
+    "gulp": "^3.9.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-tslint": "^8.1.2",
+    "gulp-typescript": "^3.2.2",
+    "mkdirp": "^0.5.1",
+    "mocha": "^3.5.3",
+    "mocha-junit-reporter": "^1.13.0",
+    "q": "^1.5.0",
+    "replace": "^0.3.0",
+    "run-sequence": "^2.2.0",
+    "tslint": "^4.5.1",
+    "typescript": "^2.5.2"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-t4FKoVe0wWJ/s5BN+8lRvff/7UOc5XN6kjqZ3+Rv4qIyPCGS0q53i+oIyG7n2Y/lOyr7MkgYU4BmHBuEzE6/JQ==",
+    "shasum": "75c5f2ff179ee68bfccbddd6e6ac4840f02603e4",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-code-push/-/cordova-plugin-code-push-1.11.9.tgz",
+    "fileCount": 101,
+    "unpackedSize": 485993
+  },
+  "gitHead": "1957d57abc2682f973ae665c25fff753ea8f1f9c",
+  "homepage": "https://github.com/Microsoft/cordova-plugin-code-push#readme",
+  "keywords": [
+    "cordova",
+    "code",
+    "push",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "axemclion",
+      "email": "code@nparashuram.com"
+    },
+    {
+      "name": "bokang",
+      "email": "buptkang@gmail.com"
+    },
+    {
+      "name": "bretjohnson",
+      "email": "bret.johnson@microsoft.com"
+    },
+    {
+      "name": "max-mironov",
+      "email": "v-maximi@microsoft.com"
+    },
+    {
+      "name": "maximpop",
+      "email": "maximpop@microsoft.com"
+    },
+    {
+      "name": "pniko",
+      "email": "patrick.nikoletich@microsoft.com"
+    },
+    {
+      "name": "ryanjsalva",
+      "email": "ryanjsalva@gmail.com"
+    },
+    {
+      "name": "sergey-akhalkov",
+      "email": "v-seakha@microsoft.com"
+    },
+    {
+      "name": "silhouettes",
+      "email": "rich@rkhua.com"
+    },
+    {
+      "name": "toys",
+      "email": "toysruss89@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-code-push",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/cordova-plugin-code-push.git"
+  },
+  "version": "1.11.9"
+}

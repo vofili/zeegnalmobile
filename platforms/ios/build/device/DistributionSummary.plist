@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Zeegnal.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>A31B5809C64329989926ED913E9510FF025E9ABA</string>
+				<key>dateExpires</key>
+				<string>8/19/18</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A31B5809C64329989926ED913E9510FF025E9ABA</string>
+						<key>dateExpires</key>
+						<string>8/19/18</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>entitlements</key>
+					<dict>
+						<key>application-identifier</key>
+						<string>82FC3C5895.com.qucoon.mboile.zeegnalapp.OneSignalNotificationServiceExtension</string>
+						<key>aps-environment</key>
+						<string>development</string>
+						<key>com.apple.developer.team-identifier</key>
+						<string>82FC3C5895</string>
+						<key>get-task-allow</key>
+						<true/>
+					</dict>
+					<key>name</key>
+					<string>OneSignalNotificationServiceExtension.appex</string>
+					<key>profile</key>
+					<dict>
+						<key>UUID</key>
+						<string>b67f827e-11ee-4ac5-9627-b19989df817a</string>
+						<key>name</key>
+						<string>iOS Team Provisioning Profile: com.qucoon.mboile.zeegnalapp.OneSignalNotificationServiceExtension</string>
+					</dict>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>82FC3C5895</string>
+						<key>name</key>
+						<string>QuCoon Limited</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>82FC3C5895.com.qucoon.mboile.zeegnalapp</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>82FC3C5895</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>Zeegnal.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>c0d63704-4ede-4998-828f-c44194458c84</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.qucoon.mboile.zeegnalapp</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>82FC3C5895</string>
+				<key>name</key>
+				<string>QuCoon Limited</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
