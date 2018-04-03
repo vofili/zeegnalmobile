@@ -45,6 +45,21 @@
     <feature name="BarcodeScanner">
         <param name="ios-package" value="CDVBarcodeScanner" />
     </feature>
+    <feature name="RareloopAppVersion">
+        <param name="ios-package" value="RareloopAppVersion" />
+    </feature>
+    <feature name="Vibration">
+        <param name="ios-package" value="CDVVibration" />
+    </feature>
+    <feature name="IonicDeploy">
+        <param name="ios-package" onload="true" value="IonicDeploy" />
+    </feature>
+    <feature name="IonicCordovaCommon">
+        <param name="ios-package" onload="true" value="IonicCordovaCommon" />
+    </feature>
+    <feature name="OneSignalPush">
+        <param name="ios-package" value="OneSignalPush" />
+    </feature>
     <name>Zeegnal</name>
     <description>An awesome Visitor Management App</description>
     <author email="info@qucoon.com" href="http://ionicframework.com/">Qucoon Development Team</author>

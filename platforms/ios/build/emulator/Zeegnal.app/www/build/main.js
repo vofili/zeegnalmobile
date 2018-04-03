@@ -1,6 +1,6 @@
-webpackJsonp([8],{
+webpackJsonp([1],{
 
-/***/ 109:
+/***/ 110:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ webpackJsonp([8],{
 /* unused harmony export ZeegnalRequst */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -73,7 +73,49 @@ var ZeegnalRequst = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 114:
+/***/ 126:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 126;
+
+/***/ }),
+
+/***/ 167:
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"../pages/userprofile/userprofile.module": [
+		473,
+		0
+	]
+};
+function webpackAsyncContext(req) {
+	var ids = map[req];
+	if(!ids)
+		return Promise.reject(new Error("Cannot find module '" + req + "'."));
+	return __webpack_require__.e(ids[1]).then(function() {
+		return __webpack_require__(ids[0]);
+	});
+};
+webpackAsyncContext.keys = function webpackAsyncContextKeys() {
+	return Object.keys(map);
+};
+webpackAsyncContext.id = 167;
+module.exports = webpackAsyncContext;
+
+/***/ }),
+
+/***/ 207:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -120,118 +162,12 @@ var CommunitydetailPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 115:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EntercodePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(14);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var EntercodePage = /** @class */ (function () {
-    function EntercodePage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.zeegnalreference = new __WEBPACK_IMPORTED_MODULE_2__angular_forms__["b" /* FormControl */]('', {});
-    }
-    EntercodePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad EntercodePage');
-    };
-    EntercodePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-entercode',template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/entercode/entercode.html"*/'<!--\n  Generated template for the EntercodePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-title>Enter Access Code</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <ion-item>\n      <ion-input formControlName="zeegnalreference" type="text"></ion-input>\n  </ion-item>\n  <ion-item>\n    <ion-input formControlName="zeegnalreference" type="text"></ion-input>\n  </ion-item>\n  <button ion-button type="submit">Access</button>\n</ion-content>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/entercode/entercode.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
-    ], EntercodePage);
-    return EntercodePage;
-}());
-
-//# sourceMappingURL=entercode.js.map
-
-/***/ }),
-
-/***/ 116:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InvitedetailPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_moment__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the InvitedetailPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var InvitedetailPage = /** @class */ (function () {
-    function InvitedetailPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.hashstring = this.navParams.get('hashstring');
-        this.parObj = this.navParams.get('paramObj');
-        var startMoment = __WEBPACK_IMPORTED_MODULE_2_moment__(this.parObj.invitestart);
-        var endMoment = __WEBPACK_IMPORTED_MODULE_2_moment__(this.parObj.inviteend);
-        this.startdate = startMoment.calendar();
-        this.enddate = endMoment.calendar();
-        var nowtime = new Date();
-        var starttime = new Date(this.parObj.invitestart);
-        console.log(starttime);
-        if (starttime < nowtime) {
-            this.arrivaltimestatus = false;
-        }
-        else {
-            this.arrivaltimestatus = true;
-        }
-        console.log(this.arrivaltimestatus);
-    }
-    InvitedetailPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad InvitedetailPage');
-    };
-    InvitedetailPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-invitedetail',template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/invitedetail/invitedetail.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Invite</ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only>\n        <ion-icon name="more"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n			<div class="vertical-center txt-center">\n						\n              <span class="txt-center" style="font-size:12px;text-transform: uppercase;">Your invite to {{parObj.name}}</span>\n              \n      \n      <ion-row data-transation="fadeInDown" data-start-time="400">\n      <ion-item text-center no-padding>\n      <ngx-qrcode [qrc-value] ="hashstring" qrc-class ="aclass" qrc-errorCorrectionLevel="L"></ngx-qrcode>\n      <span text-center class="text2 txt-light" style="font-size:10px">Show this on arrival<i class="fa fa-arrow-up" style="margin-left:5px"></i> </span>\n      <span text-center class="text2 txt-light" style="font-size:12px;display:block;margin-top:5px;color:#04679b;font-weight:500">Or use access Code: \n        {{parObj.reference}}</span>\n    </ion-item>\n    </ion-row>\n   \n							<div style="margin-top: 20px;">\n                <span text-left class="text2 block txt-light" style="font-size:14px">You are Visting {{parObj.fromfirstname}}  {{parObj.fromlastname}}</span>\n              <hr/>\n              <span text-left  *ngIf="!arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> You had access since {{startdate}}</span>\n               <span text-left *ngIf="arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> You have access from {{startdate}}</span>\n              <hr/>\n              <span text-left class="text2 block txt-light" style="font-size:14px"> But be there before {{enddate}}</span>\n              <hr/>\n              <span text-left class="text2 block txt-light" style="font-size:14px"> This invite is {{parObj.invitestatus}}</span>\n              <hr/>\n             \n							</div>\n						\n					</div>\n\n\n</ion-content>\n\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/invitedetail/invitedetail.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
-    ], InvitedetailPage);
-    return InvitedetailPage;
-}());
-
-//# sourceMappingURL=invitedetail.js.map
-
-/***/ }),
-
-/***/ 117:
+/***/ 208:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlacesPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__communitydetail_communitydetail__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__communitydetail_communitydetail__ = __webpack_require__(207);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -286,14 +222,78 @@ var PlacesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 118:
+/***/ 209:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RequestdetailPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_moment__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the RequestdetailPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var RequestdetailPage = /** @class */ (function () {
+    function RequestdetailPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.hashstring = this.navParams.get('hashstring');
+        this.parObj = this.navParams.get('paramObj');
+        var startMoment = __WEBPACK_IMPORTED_MODULE_2_moment__(this.parObj.invitestart);
+        var endMoment = __WEBPACK_IMPORTED_MODULE_2_moment__(this.parObj.inviteend);
+        this.startdate = startMoment.calendar();
+        this.enddate = endMoment.calendar();
+        var nowtime = new Date();
+        var starttime = new Date(this.parObj.invitestart);
+        console.log(starttime);
+        if (starttime < nowtime) {
+            this.arrivaltimestatus = false;
+        }
+        else {
+            this.arrivaltimestatus = true;
+        }
+        console.log(this.arrivaltimestatus);
+    }
+    RequestdetailPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad RequestdetailPage');
+    };
+    RequestdetailPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-requestdetail',template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/requestdetail/requestdetail.html"*/'<!--\n  Generated template for the RequestdetailPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Request</ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only>\n        <ion-icon name="md-more"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n			<div class="vertical-center txt-center">\n						\n              <span class="txt-center" style="font-size:12px;text-transform: uppercase;">You invited {{parObj.tofirstname}}  {{parObj.tolastname}}<br/> to visit {{parObj.name}}</span>\n              \n      \n      <ion-row data-transation="fadeInDown" data-start-time="400">\n      <ion-item text-center no-padding>\n      <ngx-qrcode [qrc-value] ="hashstring" qrc-class ="aclass" qrc-errorCorrectionLevel="L"></ngx-qrcode>\n      <span text-center class="text2 txt-light" style="font-size:12px;display:block;margin-top:5px;color:#04679b;font-weight:500">Access Code: \n        {{parObj.reference}}</span>\n    </ion-item>\n    </ion-row>\n   \n							<div style="margin-top: 20px;">\n                <span text-left class="text2 block txt-light" style="font-size:14px">{{parObj.tofirstname}}  {{parObj.tolastname}} is visiting you</span>\n              <hr/>\n              <span text-left  *ngIf="!arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> {{parObj.tofirstname}}  {{parObj.tolastname}} had access {{startdate}}</span>\n               <span text-left *ngIf="arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> {{parObj.tofirstname}}  {{parObj.tolastname}} will have access {{startdate}}</span>\n              <hr/>\n              <span text-left class="text2 block txt-light" style="font-size:14px"> This invitation expires  {{enddate}}</span>\n              <hr/>\n              <span text-left class="text2 block txt-light" style="font-size:14px"> This invitation is {{parObj.invitestatus}}</span>\n              <hr/>\n             \n							</div>\n						\n					</div>\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/requestdetail/requestdetail.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
+    ], RequestdetailPage);
+    return RequestdetailPage;
+}());
+
+//# sourceMappingURL=requestdetail.js.map
+
+/***/ }),
+
+/***/ 333:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RequestPage; });
 /* unused harmony export getguid */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__about_about__ = __webpack_require__(296);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__requestdetail_requestdetail__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__about_about__ = __webpack_require__(334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__requestdetail_requestdetail__ = __webpack_require__(209);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common_http__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular__ = __webpack_require__(7);
@@ -426,153 +426,19 @@ function getguid() {
 
 /***/ }),
 
-/***/ 119:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RequestdetailPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_moment__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the RequestdetailPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var RequestdetailPage = /** @class */ (function () {
-    function RequestdetailPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.hashstring = this.navParams.get('hashstring');
-        this.parObj = this.navParams.get('paramObj');
-        var startMoment = __WEBPACK_IMPORTED_MODULE_2_moment__(this.parObj.invitestart);
-        var endMoment = __WEBPACK_IMPORTED_MODULE_2_moment__(this.parObj.inviteend);
-        this.startdate = startMoment.calendar();
-        this.enddate = endMoment.calendar();
-        var nowtime = new Date();
-        var starttime = new Date(this.parObj.invitestart);
-        console.log(starttime);
-        if (starttime < nowtime) {
-            this.arrivaltimestatus = false;
-        }
-        else {
-            this.arrivaltimestatus = true;
-        }
-        console.log(this.arrivaltimestatus);
-    }
-    RequestdetailPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad RequestdetailPage');
-    };
-    RequestdetailPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-requestdetail',template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/requestdetail/requestdetail.html"*/'<!--\n  Generated template for the RequestdetailPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Request</ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only>\n        <ion-icon name="more"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n			<div class="vertical-center txt-center">\n						\n              <span class="txt-center" style="font-size:12px;text-transform: uppercase;">Your sent invitation to {{parObj.tofirstname}}  {{parObj.tolastname}}<br/> visiting {{parObj.name}}</span>\n              \n      \n      <ion-row data-transation="fadeInDown" data-start-time="400">\n      <ion-item text-center no-padding>\n      <ngx-qrcode [qrc-value] ="hashstring" qrc-class ="aclass" qrc-errorCorrectionLevel="L"></ngx-qrcode>\n      <span text-center class="text2 txt-light" style="font-size:12px;display:block;margin-top:5px;color:#04679b;font-weight:500">Access Code: \n        {{parObj.reference}}</span>\n    </ion-item>\n    </ion-row>\n   \n							<div style="margin-top: 20px;">\n                <span text-left class="text2 block txt-light" style="font-size:14px">{{parObj.tofirstname}}  {{parObj.tolastname}} is visiting you</span>\n              <hr/>\n              <span text-left  *ngIf="!arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> {{parObj.tofirstname}}  {{parObj.tolastname}} has had access since {{startdate}}</span>\n               <span text-left *ngIf="arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> {{parObj.tofirstname}}  {{parObj.tolastname}} will have access from {{startdate}}</span>\n              <hr/>\n              <span text-left class="text2 block txt-light" style="font-size:14px"> This invitation expires  {{enddate}}</span>\n              <hr/>\n              <span text-left class="text2 block txt-light" style="font-size:14px"> This invitation is {{parObj.invitestatus}}</span>\n              <hr/>\n             \n							</div>\n						\n					</div>\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/requestdetail/requestdetail.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
-    ], RequestdetailPage);
-    return RequestdetailPage;
-}());
-
-//# sourceMappingURL=requestdetail.js.map
-
-/***/ }),
-
-/***/ 132:
-/***/ (function(module, exports) {
-
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncatched exception popping up in devtools
-	return Promise.resolve().then(function() {
-		throw new Error("Cannot find module '" + req + "'.");
-	});
-}
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 132;
-
-/***/ }),
-
-/***/ 173:
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"../pages/communitydetail/communitydetail.module": [
-		469,
-		7
-	],
-	"../pages/entercode/entercode.module": [
-		470,
-		6
-	],
-	"../pages/invitedetail/invitedetail.module": [
-		471,
-		5
-	],
-	"../pages/places/places.module": [
-		472,
-		4
-	],
-	"../pages/request/request.module": [
-		473,
-		3
-	],
-	"../pages/requestdetail/requestdetail.module": [
-		474,
-		2
-	],
-	"../pages/scanner/scanner.module": [
-		475,
-		1
-	],
-	"../pages/userprofile/userprofile.module": [
-		476,
-		0
-	]
-};
-function webpackAsyncContext(req) {
-	var ids = map[req];
-	if(!ids)
-		return Promise.reject(new Error("Cannot find module '" + req + "'."));
-	return __webpack_require__.e(ids[1]).then(function() {
-		return __webpack_require__(ids[0]);
-	});
-};
-webpackAsyncContext.keys = function webpackAsyncContextKeys() {
-	return Object.keys(map);
-};
-webpackAsyncContext.id = 173;
-module.exports = webpackAsyncContext;
-
-/***/ }),
-
-/***/ 296:
+/***/ 334:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
 /* unused harmony export getguid */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic2_super_tabs__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__validators_usernamevalidator__ = __webpack_require__(414);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic2_super_tabs__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__validators_usernamevalidator__ = __webpack_require__(434);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common_http__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_contacts__ = __webpack_require__(304);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_contacts__ = __webpack_require__(342);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -826,22 +692,128 @@ function getguid() {
 
 /***/ }),
 
-/***/ 347:
+/***/ 344:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EntercodePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(14);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var EntercodePage = /** @class */ (function () {
+    function EntercodePage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.zeegnalreference = new __WEBPACK_IMPORTED_MODULE_2__angular_forms__["b" /* FormControl */]('', {});
+    }
+    EntercodePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad EntercodePage');
+    };
+    EntercodePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-entercode',template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/entercode/entercode.html"*/'<!--\n  Generated template for the EntercodePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-title>Enter Access Code</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <ion-item>\n      <ion-input formControlName="zeegnalreference" type="text"></ion-input>\n  </ion-item>\n  <ion-item>\n    <ion-input formControlName="zeegnalreference" type="text"></ion-input>\n  </ion-item>\n  <button ion-button type="submit">Access</button>\n</ion-content>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/entercode/entercode.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
+    ], EntercodePage);
+    return EntercodePage;
+}());
+
+//# sourceMappingURL=entercode.js.map
+
+/***/ }),
+
+/***/ 345:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InvitedetailPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_moment__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the InvitedetailPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var InvitedetailPage = /** @class */ (function () {
+    function InvitedetailPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.hashstring = this.navParams.get('hashstring');
+        this.parObj = this.navParams.get('paramObj');
+        var startMoment = __WEBPACK_IMPORTED_MODULE_2_moment__(this.parObj.invitestart);
+        var endMoment = __WEBPACK_IMPORTED_MODULE_2_moment__(this.parObj.inviteend);
+        this.startdate = startMoment.calendar();
+        this.enddate = endMoment.calendar();
+        var nowtime = new Date();
+        var starttime = new Date(this.parObj.invitestart);
+        console.log(starttime);
+        if (starttime < nowtime) {
+            this.arrivaltimestatus = false;
+        }
+        else {
+            this.arrivaltimestatus = true;
+        }
+        console.log(this.arrivaltimestatus);
+    }
+    InvitedetailPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad InvitedetailPage');
+    };
+    InvitedetailPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-invitedetail',template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/invitedetail/invitedetail.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Invite</ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only>\n        <ion-icon name="more"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n			<div class="vertical-center txt-center">\n						\n              <span class="txt-center" style="font-size:12px;text-transform: uppercase;">Your invite to {{parObj.name}}</span>\n              \n      \n      <ion-row data-transation="fadeInDown" data-start-time="400">\n      <ion-item text-center no-padding>\n      <ngx-qrcode [qrc-value] ="hashstring" qrc-class ="aclass" qrc-errorCorrectionLevel="L"></ngx-qrcode>\n      <span text-center class="text2 txt-light" style="font-size:10px">Show this on arrival<i class="fa fa-arrow-up" style="margin-left:5px"></i> </span>\n      <span text-center class="text2 txt-light" style="font-size:12px;display:block;margin-top:5px;color:#04679b;font-weight:500">Or use access Code: \n        {{parObj.reference}}</span>\n    </ion-item>\n    </ion-row>\n   \n							<div style="margin-top: 20px;">\n                <span text-left class="text2 block txt-light" style="font-size:14px">You are Visting {{parObj.fromfirstname}}  {{parObj.fromlastname}}</span>\n              <hr/>\n              <span text-left  *ngIf="!arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> You had access {{startdate}}</span>\n               <span text-left *ngIf="arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> You will have access by {{startdate}}</span>\n              <hr/>\n              <span text-left class="text2 block txt-light" style="font-size:14px"> But be there before {{enddate}}</span>\n              <hr/>\n              <span text-left class="text2 block txt-light" style="font-size:14px"> This invite is {{parObj.invitestatus}}</span>\n              <hr/>\n             \n							</div>\n						\n					</div>\n\n\n</ion-content>\n\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/invitedetail/invitedetail.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
+    ], InvitedetailPage);
+    return InvitedetailPage;
+}());
+
+//# sourceMappingURL=invitedetail.js.map
+
+/***/ }),
+
+/***/ 348:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* unused harmony export getguid */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__places_places__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_zeegnalservice_zeegnalservice__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__places_places__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_zeegnalservice_zeegnalservice__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ionic2_super_tabs__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__home_home__ = __webpack_require__(348);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__request_request__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_sim__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_app_minimize__ = __webpack_require__(351);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ionic2_super_tabs__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__home_home__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__request_request__ = __webpack_require__(333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_sim__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_app_minimize__ = __webpack_require__(352);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -864,8 +836,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var TabsPage = /** @class */ (function () {
-    function TabsPage(superTabsCtrl, http, alertCtrl, loadingCtrl, navParams, zeegnalservice, events, simCtrl, toastCtrl, platform, appMinimize) {
+    function TabsPage(superTabsCtrl, http, alertCtrl, loadingCtrl, navParams, zeegnalservice, events, simCtrl, toastCtrl, platform, appMinimize, popoverCtrl) {
         var _this = this;
         this.superTabsCtrl = superTabsCtrl;
         this.http = http;
@@ -878,6 +851,7 @@ var TabsPage = /** @class */ (function () {
         this.toastCtrl = toastCtrl;
         this.platform = platform;
         this.appMinimize = appMinimize;
+        this.popoverCtrl = popoverCtrl;
         this.platform.registerBackButtonAction(function () {
             console.log("back button presed");
             _this.appMinimize.minimize();
@@ -1069,15 +1043,16 @@ var TabsPage = /** @class */ (function () {
                 //   buttons: ['OK']
                 // });
                 // alert.present();
+                console.log(data['responsecode']);
+                console.log(data['responsemessage']);
+                console.log("Error retreiving invites");
+                console.log(JSON.stringify(data));
                 var toast = _this.toastCtrl.create({
                     message: JSON.stringify(data['responsemessage']),
                     duration: 3000,
                     position: 'bottom'
                 });
                 toast.present();
-                console.log(data['responsecode']);
-                console.log(data['responsemessage']);
-                console.log("Error retreiving invites");
             }
             _this.getallcommunities(phone);
             _this.http.post(requesturl, requestobj).subscribe(function (data) {
@@ -1294,8 +1269,8 @@ var TabsPage = /** @class */ (function () {
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5_ionic2_super_tabs__["b" /* SuperTabsController */], __WEBPACK_IMPORTED_MODULE_3__angular_common_http__["a" /* HttpClient */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* AlertController */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["l" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["o" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1__providers_zeegnalservice_zeegnalservice__["a" /* ZeegnalserviceProvider */],
-            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* Events */], __WEBPACK_IMPORTED_MODULE_8__ionic_native_sim__["a" /* Sim */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["r" /* ToastController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["p" /* Platform */],
-            __WEBPACK_IMPORTED_MODULE_9__ionic_native_app_minimize__["a" /* AppMinimize */]])
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* Events */], __WEBPACK_IMPORTED_MODULE_8__ionic_native_sim__["a" /* Sim */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["s" /* ToastController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["p" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_9__ionic_native_app_minimize__["a" /* AppMinimize */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["q" /* PopoverController */]])
     ], TabsPage);
     return TabsPage;
 }());
@@ -1312,25 +1287,25 @@ function getguid() {
 
 /***/ }),
 
-/***/ 348:
+/***/ 349:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* unused harmony export getguid */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__providers_zeegnalservice_zeegnalservice__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__entercode_entercode__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__invitedetail_invitedetail__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic2_super_tabs__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__providers_zeegnalservice_zeegnalservice__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__entercode_entercode__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__invitedetail_invitedetail__ = __webpack_require__(345);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic2_super_tabs__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common_http__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_barcode_scanner__ = __webpack_require__(349);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_sim__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_dialogs__ = __webpack_require__(350);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_barcode_scanner__ = __webpack_require__(350);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_sim__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_dialogs__ = __webpack_require__(351);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_moment__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_moment__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_map__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_map__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1624,13 +1599,13 @@ function getguid() {
 
 /***/ }),
 
-/***/ 356:
+/***/ 358:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(357);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(376);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(359);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(378);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -1638,44 +1613,52 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 376:
+/***/ 378:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* unused harmony export MyErrorHandler */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_communitydetail_communitydetail__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pages_places_places__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_requestdetail_requestdetail__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_request_request__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_entercode_entercode__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_invitedetail_invitedetail__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_component__ = __webpack_require__(442);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_about_about__ = __webpack_require__(296);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_contact_contact__ = __webpack_require__(443);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_home_home__ = __webpack_require__(348);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_tabs_tabs__ = __webpack_require__(347);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__ = __webpack_require__(345);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__ = __webpack_require__(346);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_dialogs__ = __webpack_require__(350);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_barcode_scanner__ = __webpack_require__(349);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_sim__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_ngx_qrcode2__ = __webpack_require__(444);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_ionic2_super_tabs__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__angular_common_http__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22_ngx_avatar__ = __webpack_require__(464);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22_ngx_avatar___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_22_ngx_avatar__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__providers_invitation_invitation__ = __webpack_require__(468);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__providers_zeegnalservice_zeegnalservice__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_native_contacts__ = __webpack_require__(304);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_app_minimize__ = __webpack_require__(351);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_scanner_scanner__ = __webpack_require__(379);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pages_communitydetail_communitydetail__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_places_places__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_requestdetail_requestdetail__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_request_request__ = __webpack_require__(333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_entercode_entercode__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_invitedetail_invitedetail__ = __webpack_require__(345);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_platform_browser__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_component__ = __webpack_require__(445);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_about_about__ = __webpack_require__(334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_contact_contact__ = __webpack_require__(446);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_home_home__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_tabs_tabs__ = __webpack_require__(348);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_status_bar__ = __webpack_require__(346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_splash_screen__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_dialogs__ = __webpack_require__(351);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_barcode_scanner__ = __webpack_require__(350);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_native_sim__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_ngx_qrcode2__ = __webpack_require__(447);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_ionic2_super_tabs__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__angular_common_http__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_ngx_avatar__ = __webpack_require__(467);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_ngx_avatar___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_23_ngx_avatar__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__providers_invitation_invitation__ = __webpack_require__(471);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__providers_zeegnalservice_zeegnalservice__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_contacts__ = __webpack_require__(342);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_app_minimize__ = __webpack_require__(352);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_onesignal__ = __webpack_require__(353);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_pro__ = __webpack_require__(472);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_pro___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_29__ionic_pro__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
 
@@ -1704,52 +1687,82 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
+
+// These are all imports required for Pro Client with Monitoring & Deploy,
+// feel free to merge into existing imports above.
+
+
+__WEBPACK_IMPORTED_MODULE_29__ionic_pro__["Pro"].init('70125b20', {
+    appVersion: '0.0.1'
+});
+var MyErrorHandler = /** @class */ (function () {
+    function MyErrorHandler(injector) {
+        try {
+            this.ionicErrorHandler = injector.get(__WEBPACK_IMPORTED_MODULE_9_ionic_angular__["i" /* IonicErrorHandler */]);
+            console.log(this.ionicErrorHandler);
+        }
+        catch (e) {
+            // Unable to get the IonicErrorHandler provider, ensure
+            // IonicErrorHandler has been added to the providers list below
+            console.log(e);
+        }
+    }
+    MyErrorHandler.prototype.handleError = function (err) {
+        console.log("handleError");
+        console.log(err);
+        __WEBPACK_IMPORTED_MODULE_29__ionic_pro__["Pro"].monitoring.handleNewError(err);
+        // Remove this if you want to disable Ionic's auto exception handling
+        // in development mode.
+        this.ionicErrorHandler && this.ionicErrorHandler.handleError(err);
+    };
+    MyErrorHandler = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_7__angular_core__["Injectable"])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_7__angular_core__["Injector"]])
+    ], MyErrorHandler);
+    return MyErrorHandler;
+}());
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_6__angular_core__["NgModule"])({
+        Object(__WEBPACK_IMPORTED_MODULE_7__angular_core__["NgModule"])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_about_about__["a" /* AboutPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_contact_contact__["a" /* ContactPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_tabs_tabs__["a" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_5__pages_invitedetail_invitedetail__["a" /* InvitedetailPage */], __WEBPACK_IMPORTED_MODULE_4__pages_entercode_entercode__["a" /* EntercodePage */], __WEBPACK_IMPORTED_MODULE_3__pages_request_request__["a" /* RequestPage */], __WEBPACK_IMPORTED_MODULE_2__pages_requestdetail_requestdetail__["a" /* RequestdetailPage */], __WEBPACK_IMPORTED_MODULE_1__pages_places_places__["a" /* PlacesPage */], __WEBPACK_IMPORTED_MODULE_0__pages_communitydetail_communitydetail__["a" /* CommunitydetailPage */]
+                __WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_about_about__["a" /* AboutPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_contact_contact__["a" /* ContactPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_tabs_tabs__["a" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_6__pages_invitedetail_invitedetail__["a" /* InvitedetailPage */], __WEBPACK_IMPORTED_MODULE_5__pages_entercode_entercode__["a" /* EntercodePage */], __WEBPACK_IMPORTED_MODULE_4__pages_request_request__["a" /* RequestPage */], __WEBPACK_IMPORTED_MODULE_3__pages_requestdetail_requestdetail__["a" /* RequestdetailPage */], __WEBPACK_IMPORTED_MODULE_2__pages_places_places__["a" /* PlacesPage */], __WEBPACK_IMPORTED_MODULE_1__pages_communitydetail_communitydetail__["a" /* CommunitydetailPage */], __WEBPACK_IMPORTED_MODULE_0__pages_scanner_scanner__["a" /* ScannerPage */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__["a" /* BrowserModule */], __WEBPACK_IMPORTED_MODULE_21__angular_common_http__["b" /* HttpClientModule */],
-                __WEBPACK_IMPORTED_MODULE_8_ionic_angular__["j" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* MyApp */], { scrollAssist: false }, {
+                __WEBPACK_IMPORTED_MODULE_8__angular_platform_browser__["a" /* BrowserModule */], __WEBPACK_IMPORTED_MODULE_22__angular_common_http__["b" /* HttpClientModule */],
+                __WEBPACK_IMPORTED_MODULE_9_ionic_angular__["j" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* MyApp */], { scrollAssist: false }, {
                     links: [
-                        { loadChildren: '../pages/communitydetail/communitydetail.module#CommunitydetailPageModule', name: 'CommunitydetailPage', segment: 'communitydetail', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/entercode/entercode.module#EntercodePageModule', name: 'EntercodePage', segment: 'entercode', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/invitedetail/invitedetail.module#InvitedetailPageModule', name: 'InvitedetailPage', segment: 'invitedetail', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/places/places.module#PlacesPageModule', name: 'PlacesPage', segment: 'places', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/request/request.module#RequestPageModule', name: 'RequestPage', segment: 'request', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/requestdetail/requestdetail.module#RequestdetailPageModule', name: 'RequestdetailPage', segment: 'requestdetail', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/scanner/scanner.module#ScannerPageModule', name: 'ScannerPage', segment: 'scanner', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/userprofile/userprofile.module#UserprofilePageModule', name: 'UserprofilePage', segment: 'userprofile', priority: 'low', defaultHistory: [] }
                     ]
                 }),
-                __WEBPACK_IMPORTED_MODULE_20_ionic2_super_tabs__["c" /* SuperTabsModule */].forRoot(), __WEBPACK_IMPORTED_MODULE_19_ngx_qrcode2__["a" /* NgxQRCodeModule */],
-                __WEBPACK_IMPORTED_MODULE_22_ngx_avatar__["AvatarModule"]
+                __WEBPACK_IMPORTED_MODULE_21_ionic2_super_tabs__["c" /* SuperTabsModule */].forRoot(), __WEBPACK_IMPORTED_MODULE_20_ngx_qrcode2__["a" /* NgxQRCodeModule */],
+                __WEBPACK_IMPORTED_MODULE_23_ngx_avatar__["AvatarModule"]
             ],
-            bootstrap: [__WEBPACK_IMPORTED_MODULE_8_ionic_angular__["h" /* IonicApp */]],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_9_ionic_angular__["h" /* IonicApp */]],
             entryComponents: [
-                __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_about_about__["a" /* AboutPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_contact_contact__["a" /* ContactPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_tabs_tabs__["a" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_5__pages_invitedetail_invitedetail__["a" /* InvitedetailPage */], __WEBPACK_IMPORTED_MODULE_4__pages_entercode_entercode__["a" /* EntercodePage */], __WEBPACK_IMPORTED_MODULE_3__pages_request_request__["a" /* RequestPage */], __WEBPACK_IMPORTED_MODULE_2__pages_requestdetail_requestdetail__["a" /* RequestdetailPage */], __WEBPACK_IMPORTED_MODULE_1__pages_places_places__["a" /* PlacesPage */], __WEBPACK_IMPORTED_MODULE_0__pages_communitydetail_communitydetail__["a" /* CommunitydetailPage */]
+                __WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_about_about__["a" /* AboutPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_contact_contact__["a" /* ContactPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_tabs_tabs__["a" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_6__pages_invitedetail_invitedetail__["a" /* InvitedetailPage */], __WEBPACK_IMPORTED_MODULE_5__pages_entercode_entercode__["a" /* EntercodePage */], __WEBPACK_IMPORTED_MODULE_4__pages_request_request__["a" /* RequestPage */], __WEBPACK_IMPORTED_MODULE_3__pages_requestdetail_requestdetail__["a" /* RequestdetailPage */], __WEBPACK_IMPORTED_MODULE_2__pages_places_places__["a" /* PlacesPage */], __WEBPACK_IMPORTED_MODULE_1__pages_communitydetail_communitydetail__["a" /* CommunitydetailPage */],
+                __WEBPACK_IMPORTED_MODULE_0__pages_scanner_scanner__["a" /* ScannerPage */]
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__["a" /* StatusBar */],
-                __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__["a" /* SplashScreen */],
-                __WEBPACK_IMPORTED_MODULE_17__ionic_native_barcode_scanner__["a" /* BarcodeScanner */],
-                __WEBPACK_IMPORTED_MODULE_18__ionic_native_sim__["a" /* Sim */],
-                __WEBPACK_IMPORTED_MODULE_16__ionic_native_dialogs__["a" /* Dialogs */],
-                { provide: __WEBPACK_IMPORTED_MODULE_6__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_8_ionic_angular__["i" /* IonicErrorHandler */] },
-                __WEBPACK_IMPORTED_MODULE_23__providers_invitation_invitation__["a" /* InvitationProvider */],
-                __WEBPACK_IMPORTED_MODULE_24__providers_zeegnalservice_zeegnalservice__["a" /* ZeegnalserviceProvider */], __WEBPACK_IMPORTED_MODULE_25__ionic_native_contacts__["b" /* Contacts */], __WEBPACK_IMPORTED_MODULE_25__ionic_native_contacts__["a" /* Contact */], __WEBPACK_IMPORTED_MODULE_26__ionic_native_app_minimize__["a" /* AppMinimize */]
+                __WEBPACK_IMPORTED_MODULE_15__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_16__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_18__ionic_native_barcode_scanner__["a" /* BarcodeScanner */],
+                __WEBPACK_IMPORTED_MODULE_19__ionic_native_sim__["a" /* Sim */],
+                __WEBPACK_IMPORTED_MODULE_17__ionic_native_dialogs__["a" /* Dialogs */], __WEBPACK_IMPORTED_MODULE_9_ionic_angular__["i" /* IonicErrorHandler */],
+                { provide: __WEBPACK_IMPORTED_MODULE_7__angular_core__["ErrorHandler"], useClass: MyErrorHandler },
+                __WEBPACK_IMPORTED_MODULE_24__providers_invitation_invitation__["a" /* InvitationProvider */], __WEBPACK_IMPORTED_MODULE_28__ionic_native_onesignal__["a" /* OneSignal */],
+                __WEBPACK_IMPORTED_MODULE_25__providers_zeegnalservice_zeegnalservice__["a" /* ZeegnalserviceProvider */], __WEBPACK_IMPORTED_MODULE_26__ionic_native_contacts__["b" /* Contacts */], __WEBPACK_IMPORTED_MODULE_26__ionic_native_contacts__["a" /* Contact */], __WEBPACK_IMPORTED_MODULE_27__ionic_native_app_minimize__["a" /* AppMinimize */]
             ]
         })
     ], AppModule);
@@ -1760,254 +1773,301 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 402:
+/***/ 379:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScannerPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the ScannerPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ScannerPage = /** @class */ (function () {
+    function ScannerPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ScannerPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ScannerPage');
+    };
+    ScannerPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-scanner',template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/scanner/scanner.html"*/'<!--\n  Generated template for the ScannerPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Scan Access Code</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/scanner/scanner.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
+    ], ScannerPage);
+    return ScannerPage;
+}());
+
+//# sourceMappingURL=scanner.js.map
+
+/***/ }),
+
+/***/ 422:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./af": 174,
-	"./af.js": 174,
-	"./ar": 175,
-	"./ar-dz": 176,
-	"./ar-dz.js": 176,
-	"./ar-kw": 177,
-	"./ar-kw.js": 177,
-	"./ar-ly": 178,
-	"./ar-ly.js": 178,
-	"./ar-ma": 179,
-	"./ar-ma.js": 179,
-	"./ar-sa": 180,
-	"./ar-sa.js": 180,
-	"./ar-tn": 181,
-	"./ar-tn.js": 181,
-	"./ar.js": 175,
-	"./az": 182,
-	"./az.js": 182,
-	"./be": 183,
-	"./be.js": 183,
-	"./bg": 184,
-	"./bg.js": 184,
-	"./bm": 185,
-	"./bm.js": 185,
-	"./bn": 186,
-	"./bn.js": 186,
-	"./bo": 187,
-	"./bo.js": 187,
-	"./br": 188,
-	"./br.js": 188,
-	"./bs": 189,
-	"./bs.js": 189,
-	"./ca": 190,
-	"./ca.js": 190,
-	"./cs": 191,
-	"./cs.js": 191,
-	"./cv": 192,
-	"./cv.js": 192,
-	"./cy": 193,
-	"./cy.js": 193,
-	"./da": 194,
-	"./da.js": 194,
-	"./de": 195,
-	"./de-at": 196,
-	"./de-at.js": 196,
-	"./de-ch": 197,
-	"./de-ch.js": 197,
-	"./de.js": 195,
-	"./dv": 198,
-	"./dv.js": 198,
-	"./el": 199,
-	"./el.js": 199,
-	"./en-au": 200,
-	"./en-au.js": 200,
-	"./en-ca": 201,
-	"./en-ca.js": 201,
-	"./en-gb": 202,
-	"./en-gb.js": 202,
-	"./en-ie": 203,
-	"./en-ie.js": 203,
-	"./en-il": 204,
-	"./en-il.js": 204,
-	"./en-nz": 205,
-	"./en-nz.js": 205,
-	"./eo": 206,
-	"./eo.js": 206,
-	"./es": 207,
-	"./es-do": 208,
-	"./es-do.js": 208,
-	"./es-us": 209,
-	"./es-us.js": 209,
-	"./es.js": 207,
-	"./et": 210,
-	"./et.js": 210,
-	"./eu": 211,
-	"./eu.js": 211,
-	"./fa": 212,
-	"./fa.js": 212,
-	"./fi": 213,
-	"./fi.js": 213,
-	"./fo": 214,
-	"./fo.js": 214,
-	"./fr": 215,
-	"./fr-ca": 216,
-	"./fr-ca.js": 216,
-	"./fr-ch": 217,
-	"./fr-ch.js": 217,
-	"./fr.js": 215,
-	"./fy": 218,
-	"./fy.js": 218,
-	"./gd": 219,
-	"./gd.js": 219,
-	"./gl": 220,
-	"./gl.js": 220,
-	"./gom-latn": 221,
-	"./gom-latn.js": 221,
-	"./gu": 222,
-	"./gu.js": 222,
-	"./he": 223,
-	"./he.js": 223,
-	"./hi": 224,
-	"./hi.js": 224,
-	"./hr": 225,
-	"./hr.js": 225,
-	"./hu": 226,
-	"./hu.js": 226,
-	"./hy-am": 227,
-	"./hy-am.js": 227,
-	"./id": 228,
-	"./id.js": 228,
-	"./is": 229,
-	"./is.js": 229,
-	"./it": 230,
-	"./it.js": 230,
-	"./ja": 231,
-	"./ja.js": 231,
-	"./jv": 232,
-	"./jv.js": 232,
-	"./ka": 233,
-	"./ka.js": 233,
-	"./kk": 234,
-	"./kk.js": 234,
-	"./km": 235,
-	"./km.js": 235,
-	"./kn": 236,
-	"./kn.js": 236,
-	"./ko": 237,
-	"./ko.js": 237,
-	"./ky": 238,
-	"./ky.js": 238,
-	"./lb": 239,
-	"./lb.js": 239,
-	"./lo": 240,
-	"./lo.js": 240,
-	"./lt": 241,
-	"./lt.js": 241,
-	"./lv": 242,
-	"./lv.js": 242,
-	"./me": 243,
-	"./me.js": 243,
-	"./mi": 244,
-	"./mi.js": 244,
-	"./mk": 245,
-	"./mk.js": 245,
-	"./ml": 246,
-	"./ml.js": 246,
-	"./mr": 247,
-	"./mr.js": 247,
-	"./ms": 248,
-	"./ms-my": 249,
-	"./ms-my.js": 249,
-	"./ms.js": 248,
-	"./mt": 250,
-	"./mt.js": 250,
-	"./my": 251,
-	"./my.js": 251,
-	"./nb": 252,
-	"./nb.js": 252,
-	"./ne": 253,
-	"./ne.js": 253,
-	"./nl": 254,
-	"./nl-be": 255,
-	"./nl-be.js": 255,
-	"./nl.js": 254,
-	"./nn": 256,
-	"./nn.js": 256,
-	"./pa-in": 257,
-	"./pa-in.js": 257,
-	"./pl": 258,
-	"./pl.js": 258,
-	"./pt": 259,
-	"./pt-br": 260,
-	"./pt-br.js": 260,
-	"./pt.js": 259,
-	"./ro": 261,
-	"./ro.js": 261,
-	"./ru": 262,
-	"./ru.js": 262,
-	"./sd": 263,
-	"./sd.js": 263,
-	"./se": 264,
-	"./se.js": 264,
-	"./si": 265,
-	"./si.js": 265,
-	"./sk": 266,
-	"./sk.js": 266,
-	"./sl": 267,
-	"./sl.js": 267,
-	"./sq": 268,
-	"./sq.js": 268,
-	"./sr": 269,
-	"./sr-cyrl": 270,
-	"./sr-cyrl.js": 270,
-	"./sr.js": 269,
-	"./ss": 271,
-	"./ss.js": 271,
-	"./sv": 272,
-	"./sv.js": 272,
-	"./sw": 273,
-	"./sw.js": 273,
-	"./ta": 274,
-	"./ta.js": 274,
-	"./te": 275,
-	"./te.js": 275,
-	"./tet": 276,
-	"./tet.js": 276,
-	"./tg": 277,
-	"./tg.js": 277,
-	"./th": 278,
-	"./th.js": 278,
-	"./tl-ph": 279,
-	"./tl-ph.js": 279,
-	"./tlh": 280,
-	"./tlh.js": 280,
-	"./tr": 281,
-	"./tr.js": 281,
-	"./tzl": 282,
-	"./tzl.js": 282,
-	"./tzm": 283,
-	"./tzm-latn": 284,
-	"./tzm-latn.js": 284,
-	"./tzm.js": 283,
-	"./ug-cn": 285,
-	"./ug-cn.js": 285,
-	"./uk": 286,
-	"./uk.js": 286,
-	"./ur": 287,
-	"./ur.js": 287,
-	"./uz": 288,
-	"./uz-latn": 289,
-	"./uz-latn.js": 289,
-	"./uz.js": 288,
-	"./vi": 290,
-	"./vi.js": 290,
-	"./x-pseudo": 291,
-	"./x-pseudo.js": 291,
-	"./yo": 292,
-	"./yo.js": 292,
-	"./zh-cn": 293,
-	"./zh-cn.js": 293,
-	"./zh-hk": 294,
-	"./zh-hk.js": 294,
-	"./zh-tw": 295,
-	"./zh-tw.js": 295
+	"./af": 210,
+	"./af.js": 210,
+	"./ar": 211,
+	"./ar-dz": 212,
+	"./ar-dz.js": 212,
+	"./ar-kw": 213,
+	"./ar-kw.js": 213,
+	"./ar-ly": 214,
+	"./ar-ly.js": 214,
+	"./ar-ma": 215,
+	"./ar-ma.js": 215,
+	"./ar-sa": 216,
+	"./ar-sa.js": 216,
+	"./ar-tn": 217,
+	"./ar-tn.js": 217,
+	"./ar.js": 211,
+	"./az": 218,
+	"./az.js": 218,
+	"./be": 219,
+	"./be.js": 219,
+	"./bg": 220,
+	"./bg.js": 220,
+	"./bm": 221,
+	"./bm.js": 221,
+	"./bn": 222,
+	"./bn.js": 222,
+	"./bo": 223,
+	"./bo.js": 223,
+	"./br": 224,
+	"./br.js": 224,
+	"./bs": 225,
+	"./bs.js": 225,
+	"./ca": 226,
+	"./ca.js": 226,
+	"./cs": 227,
+	"./cs.js": 227,
+	"./cv": 228,
+	"./cv.js": 228,
+	"./cy": 229,
+	"./cy.js": 229,
+	"./da": 230,
+	"./da.js": 230,
+	"./de": 231,
+	"./de-at": 232,
+	"./de-at.js": 232,
+	"./de-ch": 233,
+	"./de-ch.js": 233,
+	"./de.js": 231,
+	"./dv": 234,
+	"./dv.js": 234,
+	"./el": 235,
+	"./el.js": 235,
+	"./en-au": 236,
+	"./en-au.js": 236,
+	"./en-ca": 237,
+	"./en-ca.js": 237,
+	"./en-gb": 238,
+	"./en-gb.js": 238,
+	"./en-ie": 239,
+	"./en-ie.js": 239,
+	"./en-il": 240,
+	"./en-il.js": 240,
+	"./en-nz": 241,
+	"./en-nz.js": 241,
+	"./eo": 242,
+	"./eo.js": 242,
+	"./es": 243,
+	"./es-do": 244,
+	"./es-do.js": 244,
+	"./es-us": 245,
+	"./es-us.js": 245,
+	"./es.js": 243,
+	"./et": 246,
+	"./et.js": 246,
+	"./eu": 247,
+	"./eu.js": 247,
+	"./fa": 248,
+	"./fa.js": 248,
+	"./fi": 249,
+	"./fi.js": 249,
+	"./fo": 250,
+	"./fo.js": 250,
+	"./fr": 251,
+	"./fr-ca": 252,
+	"./fr-ca.js": 252,
+	"./fr-ch": 253,
+	"./fr-ch.js": 253,
+	"./fr.js": 251,
+	"./fy": 254,
+	"./fy.js": 254,
+	"./gd": 255,
+	"./gd.js": 255,
+	"./gl": 256,
+	"./gl.js": 256,
+	"./gom-latn": 257,
+	"./gom-latn.js": 257,
+	"./gu": 258,
+	"./gu.js": 258,
+	"./he": 259,
+	"./he.js": 259,
+	"./hi": 260,
+	"./hi.js": 260,
+	"./hr": 261,
+	"./hr.js": 261,
+	"./hu": 262,
+	"./hu.js": 262,
+	"./hy-am": 263,
+	"./hy-am.js": 263,
+	"./id": 264,
+	"./id.js": 264,
+	"./is": 265,
+	"./is.js": 265,
+	"./it": 266,
+	"./it.js": 266,
+	"./ja": 267,
+	"./ja.js": 267,
+	"./jv": 268,
+	"./jv.js": 268,
+	"./ka": 269,
+	"./ka.js": 269,
+	"./kk": 270,
+	"./kk.js": 270,
+	"./km": 271,
+	"./km.js": 271,
+	"./kn": 272,
+	"./kn.js": 272,
+	"./ko": 273,
+	"./ko.js": 273,
+	"./ky": 274,
+	"./ky.js": 274,
+	"./lb": 275,
+	"./lb.js": 275,
+	"./lo": 276,
+	"./lo.js": 276,
+	"./lt": 277,
+	"./lt.js": 277,
+	"./lv": 278,
+	"./lv.js": 278,
+	"./me": 279,
+	"./me.js": 279,
+	"./mi": 280,
+	"./mi.js": 280,
+	"./mk": 281,
+	"./mk.js": 281,
+	"./ml": 282,
+	"./ml.js": 282,
+	"./mn": 283,
+	"./mn.js": 283,
+	"./mr": 284,
+	"./mr.js": 284,
+	"./ms": 285,
+	"./ms-my": 286,
+	"./ms-my.js": 286,
+	"./ms.js": 285,
+	"./mt": 287,
+	"./mt.js": 287,
+	"./my": 288,
+	"./my.js": 288,
+	"./nb": 289,
+	"./nb.js": 289,
+	"./ne": 290,
+	"./ne.js": 290,
+	"./nl": 291,
+	"./nl-be": 292,
+	"./nl-be.js": 292,
+	"./nl.js": 291,
+	"./nn": 293,
+	"./nn.js": 293,
+	"./pa-in": 294,
+	"./pa-in.js": 294,
+	"./pl": 295,
+	"./pl.js": 295,
+	"./pt": 296,
+	"./pt-br": 297,
+	"./pt-br.js": 297,
+	"./pt.js": 296,
+	"./ro": 298,
+	"./ro.js": 298,
+	"./ru": 299,
+	"./ru.js": 299,
+	"./sd": 300,
+	"./sd.js": 300,
+	"./se": 301,
+	"./se.js": 301,
+	"./si": 302,
+	"./si.js": 302,
+	"./sk": 303,
+	"./sk.js": 303,
+	"./sl": 304,
+	"./sl.js": 304,
+	"./sq": 305,
+	"./sq.js": 305,
+	"./sr": 306,
+	"./sr-cyrl": 307,
+	"./sr-cyrl.js": 307,
+	"./sr.js": 306,
+	"./ss": 308,
+	"./ss.js": 308,
+	"./sv": 309,
+	"./sv.js": 309,
+	"./sw": 310,
+	"./sw.js": 310,
+	"./ta": 311,
+	"./ta.js": 311,
+	"./te": 312,
+	"./te.js": 312,
+	"./tet": 313,
+	"./tet.js": 313,
+	"./tg": 314,
+	"./tg.js": 314,
+	"./th": 315,
+	"./th.js": 315,
+	"./tl-ph": 316,
+	"./tl-ph.js": 316,
+	"./tlh": 317,
+	"./tlh.js": 317,
+	"./tr": 318,
+	"./tr.js": 318,
+	"./tzl": 319,
+	"./tzl.js": 319,
+	"./tzm": 320,
+	"./tzm-latn": 321,
+	"./tzm-latn.js": 321,
+	"./tzm.js": 320,
+	"./ug-cn": 322,
+	"./ug-cn.js": 322,
+	"./uk": 323,
+	"./uk.js": 323,
+	"./ur": 324,
+	"./ur.js": 324,
+	"./uz": 325,
+	"./uz-latn": 326,
+	"./uz-latn.js": 326,
+	"./uz.js": 325,
+	"./vi": 327,
+	"./vi.js": 327,
+	"./x-pseudo": 328,
+	"./x-pseudo.js": 328,
+	"./yo": 329,
+	"./yo.js": 329,
+	"./zh-cn": 330,
+	"./zh-cn.js": 330,
+	"./zh-hk": 331,
+	"./zh-hk.js": 331,
+	"./zh-tw": 332,
+	"./zh-tw.js": 332
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -2023,11 +2083,11 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 402;
+webpackContext.id = 422;
 
 /***/ }),
 
-/***/ 414:
+/***/ 434:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2058,16 +2118,17 @@ var UsernameValidator = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 442:
+/***/ 445:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(345);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(346);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(348);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_onesignal__ = __webpack_require__(353);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2082,20 +2143,57 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var MyApp = /** @class */ (function () {
-    function MyApp(platform, statusBar, splashScreen) {
+    function MyApp(platform, statusBar, onesignal, splashScreen, alertCtrl) {
+        var _this = this;
+        this.onesignal = onesignal;
+        this.alertCtrl = alertCtrl;
         this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__["a" /* TabsPage */];
         platform.ready().then(function () {
             // Okay, so the platform is ready and our plugins are available.
             // Here you can do any higher level native things you might need.
             statusBar.styleDefault();
             splashScreen.hide();
+            if (platform.is('cordova')) {
+                _this.setupPush();
+            }
         });
     }
+    MyApp.prototype.setupPush = function () {
+        var _this = this;
+        console.log("running push initialisation");
+        this.onesignal.startInit('138cbc9d-3730-4ce7-a3b0-eabe6c8137b3', '900625325721');
+        this.onesignal.handleNotificationReceived().subscribe(function (data) {
+            console.log("we received a push note ");
+            console.log(JSON.stringify(data));
+        });
+        this.onesignal.handleNotificationOpened().subscribe(function (data) {
+            console.log("we opened a opened notification ");
+            console.log(JSON.stringify(data));
+            var alert = _this.alertCtrl.create({
+                title: data.notification.payload.title,
+                subTitle: data.notification.payload.body,
+                buttons: [{
+                        role: "cancel",
+                        text: "Close"
+                    }]
+            });
+            alert.present();
+        });
+        this.onesignal.endInit();
+        var notificationOpenedCallback = function (jsonData) {
+            console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+        };
+        window["plugins"].OneSignal
+            .startInit("138cbc9d-3730-4ce7-a3b0-eabe6c8137b3", "900625325721")
+            .handleNotificationOpened(notificationOpenedCallback)
+            .endInit();
+    };
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/app/app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_onesignal__["a" /* OneSignal */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], MyApp);
     return MyApp;
 }());
@@ -2104,7 +2202,7 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 443:
+/***/ 446:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2168,7 +2266,7 @@ function getguid() {
 
 /***/ }),
 
-/***/ 468:
+/***/ 471:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2208,5 +2306,5 @@ var InvitationProvider = /** @class */ (function () {
 
 /***/ })
 
-},[356]);
+},[358]);
 //# sourceMappingURL=main.js.map

@@ -98,7 +98,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		TN8WAf8kNW1KnuL7KvrxOF4+F+k=
+		aTMHEy3MTOmoWgnTWU4EkmoZn1k=
 		</data>
 		<key>CDVBarcodeScanner.bundle/beep.caf</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		aAB6hwW77I9W8gYkGctEACl3UNQ=
+		RGZ1/LIcR5sNqjjGAfEocbCIbh0=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		tATT8G4cge09NbCnwGh/vYFqW5I=
+		m/lU4KHBJgd9Q+sOikaFFVuFSDI=
 		</data>
 		<key>CDVNotification.bundle/beep.wav</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		66Y75A8wxpamphDe5VZhhySL+kY=
+		CkAg2fA41puGqnVYuToi2RMqZnI=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -198,19 +198,31 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		a/RGJTA2dngVFq+K4aJkFIRUc5E=
+		lQBl1qFFuWK0GZW5Zsv2h5nP8QM=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>PlugIns/OneSignalNotificationServiceExtension.appex/Info.plist</key>
+		<data>
+		5t0EK8nNa29gNrewCuzgwuKPSvM=
+		</data>
+		<key>PlugIns/OneSignalNotificationServiceExtension.appex/OneSignalNotificationServiceExtension</key>
+		<data>
+		67QDA/6azWIT7n4TP4y2iaxQBOg=
+		</data>
+		<key>PlugIns/OneSignalNotificationServiceExtension.appex/_CodeSignature/CodeResources</key>
+		<data>
+		wSnpKHaQCxoI7AlBND3TjEEAK2I=
+		</data>
 		<key>config.xml</key>
 		<data>
-		dMVycGoLbSUVJBWJiBVVvt2OUlw=
+		4CZJJri7gKZK6LTZjt5dg3d5W1Q=
 		</data>
 		<key>scannerOverlay.nib</key>
 		<data>
-		7cg+GXRbEEsQeFKLedaQNzou7x4=
+		FDQOn8Y1k2ZRw1DabYvlTbIDSPQ=
 		</data>
 		<key>www/assets/css/animate.css</key>
 		<data>
@@ -586,67 +598,11 @@
 		</data>
 		<key>www/build/0.js</key>
 		<data>
-		PuBdnq4Ts3Ians5yheRFLYbuzro=
+		kquOHdle8Wyo3vc0hhU9sNrjmDA=
 		</data>
 		<key>www/build/0.js.map</key>
 		<data>
 		enUXFnPF9/zHcPCAtkhJo+p5Ryg=
-		</data>
-		<key>www/build/1.js</key>
-		<data>
-		AK/dr1DIQ1N0mVckw570rmsTpWA=
-		</data>
-		<key>www/build/1.js.map</key>
-		<data>
-		zZT6dtKxMEsWTK+HietzjcKNeIo=
-		</data>
-		<key>www/build/2.js</key>
-		<data>
-		9aeGKZHBtb5EJl4RGwXsxE5GVUQ=
-		</data>
-		<key>www/build/2.js.map</key>
-		<data>
-		/mfO/eGcH4L31JpTwK3qYpZhZ9w=
-		</data>
-		<key>www/build/3.js</key>
-		<data>
-		Z0M+NiQpZHkZe5PaNqYmYLi0QqA=
-		</data>
-		<key>www/build/3.js.map</key>
-		<data>
-		DifTzNvXWAcDjmIY+xPLISDYE8s=
-		</data>
-		<key>www/build/4.js</key>
-		<data>
-		5E7OENqMoW+AOhm/0545EnhEy8k=
-		</data>
-		<key>www/build/4.js.map</key>
-		<data>
-		vKpyrdMKQsj2ohTyHdfbO5A3Qqc=
-		</data>
-		<key>www/build/5.js</key>
-		<data>
-		y5ycoygRCL9V/7go4nj66mWsqSc=
-		</data>
-		<key>www/build/5.js.map</key>
-		<data>
-		6TmIDl/AHgl+/q/e9jQvXE1Vw9Q=
-		</data>
-		<key>www/build/6.js</key>
-		<data>
-		DHMZbNYSjFNCS4a4GLGS18s1ibA=
-		</data>
-		<key>www/build/6.js.map</key>
-		<data>
-		PkM7xHDWZknhDPUMaoCEBkJTrS4=
-		</data>
-		<key>www/build/7.js</key>
-		<data>
-		xbRV1Z34y5lfGP9GU8kpW6wqw8w=
-		</data>
-		<key>www/build/7.js.map</key>
-		<data>
-		iRJRg3c2Pn8BkW7m+xR/iM+MzZ8=
 		</data>
 		<key>www/build/main.css</key>
 		<data>
@@ -658,11 +614,11 @@
 		</data>
 		<key>www/build/main.js</key>
 		<data>
-		b4emWO4GmpXkYKTGmkV3gonpEVE=
+		mpQ224p165+m4ahzTANJNpHnh34=
 		</data>
 		<key>www/build/main.js.map</key>
 		<data>
-		ceTd9Nq0PE5CNjOBLKXsEcotlTs=
+		GF1W1MvriwcYfIXRTCjVaLll5TY=
 		</data>
 		<key>www/build/polyfills.js</key>
 		<data>
@@ -674,11 +630,11 @@
 		</data>
 		<key>www/build/vendor.js</key>
 		<data>
-		v5x+NJjCOA8UAUrSh2bNLcE/dxU=
+		EJof83TLYEVk/vtydj+2Fm4XId4=
 		</data>
 		<key>www/build/vendor.js.map</key>
 		<data>
-		/5ZhPi2fb4fKwCbPqaicTbDZcl0=
+		FFtf5pdWlthnqp7eieN2WR8XkJg=
 		</data>
 		<key>www/cordova-js-src/exec.js</key>
 		<data>
@@ -702,7 +658,7 @@
 		</data>
 		<key>www/cordova_plugins.js</key>
 		<data>
-		coTwVLun5IZnoDuDxneotQcpQ+o=
+		4ZE66AsaM6RRB8Sp2I5izmT7ikI=
 		</data>
 		<key>www/index.html</key>
 		<data>
@@ -712,9 +668,17 @@
 		<data>
 		HR505fpvAsEq+F1n9SBsE8vpVSQ=
 		</data>
+		<key>www/plugins/cordova-plugin-app-update/www/AppUpdate.js</key>
+		<data>
+		b698+uWDrjBJqL44LsFTvIty8Pk=
+		</data>
 		<key>www/plugins/cordova-plugin-appminimize/www/AppMinimize.js</key>
 		<data>
 		K6mDhsAUjG8Z4mfPvbVBKhPFOKE=
+		</data>
+		<key>www/plugins/cordova-plugin-appversion/www/app-version.js</key>
+		<data>
+		hDs8runPUWn2fPb6IbXFDM5yLA4=
 		</data>
 		<key>www/plugins/cordova-plugin-contacts/www/Contact.js</key>
 		<data>
@@ -780,6 +744,10 @@
 		<data>
 		FzovBj6X42KHJ4GoEQSPsBKf6Uo=
 		</data>
+		<key>www/plugins/cordova-plugin-ionic/www/common.js</key>
+		<data>
+		Rt+J0dFGKnpm8+q0ylqh5/57Pgs=
+		</data>
 		<key>www/plugins/cordova-plugin-sim/www/sim.js</key>
 		<data>
 		ClFcxSc++1+co21X98ODwFS+dYA=
@@ -787,6 +755,14 @@
 		<key>www/plugins/cordova-plugin-splashscreen/www/splashscreen.js</key>
 		<data>
 		n2E0W8B/grOxM2ORx/haAYOWIcA=
+		</data>
+		<key>www/plugins/cordova-plugin-vibration/www/vibration.js</key>
+		<data>
+		GCs8mOjv7LBLVsC3kCfqIFytEe0=
+		</data>
+		<key>www/plugins/onesignal-cordova-plugin/www/OneSignal.js</key>
+		<data>
+		MnDPq6gg1yQxDA3atG/hiYoSl4g=
 		</data>
 		<key>www/plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js</key>
 		<data>
@@ -1060,11 +1036,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TN8WAf8kNW1KnuL7KvrxOF4+F+k=
+			aTMHEy3MTOmoWgnTWU4EkmoZn1k=
 			</data>
 			<key>hash2</key>
 			<data>
-			r7gmuWSIPJ/3Qax9ByY3xxAfV96+YlQ0ge34o7pjqTY=
+			aeYgkcsU/2E4bM/O2E7Q+gee64ATG3j/Kj5sAfwHuAs=
 			</data>
 		</dict>
 		<key>CDVBarcodeScanner.bundle/beep.caf</key>
@@ -1115,11 +1091,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aAB6hwW77I9W8gYkGctEACl3UNQ=
+			RGZ1/LIcR5sNqjjGAfEocbCIbh0=
 			</data>
 			<key>hash2</key>
 			<data>
-			6TcfqjCKCc7JKSTE/94nc7SoB5gwcCUp8TSjZvR6G94=
+			CJpT4KhppX086hqLe4B/IOSvfmeKdj37tH0yVIFOaxI=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1137,11 +1113,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tATT8G4cge09NbCnwGh/vYFqW5I=
+			m/lU4KHBJgd9Q+sOikaFFVuFSDI=
 			</data>
 			<key>hash2</key>
 			<data>
-			pjdbFI6ccjTk7qpGy0g2IMvgAJBOC+POu+7U6jEq7pI=
+			zE/MOWw7LaaTsiqv71nSCjLz5O05WtXVss6MvmTP03U=
 			</data>
 		</dict>
 		<key>CDVNotification.bundle/beep.wav</key>
@@ -1324,33 +1300,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a/RGJTA2dngVFq+K4aJkFIRUc5E=
+			lQBl1qFFuWK0GZW5Zsv2h5nP8QM=
 			</data>
 			<key>hash2</key>
 			<data>
-			xG8owyI48G8BZyY1RID8dINXqpbDew8QF8cuyIRoXrA=
+			g4F9vHcrpRzHsOdDO1jTBesLiKWcyp/dFurjxE3NYrk=
+			</data>
+		</dict>
+		<key>PlugIns/OneSignalNotificationServiceExtension.appex/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5t0EK8nNa29gNrewCuzgwuKPSvM=
+			</data>
+			<key>hash2</key>
+			<data>
+			cqpTdx2ANKsKfnfhjm4Lc3F+7LeSj96tEccjJ0mNJI0=
+			</data>
+		</dict>
+		<key>PlugIns/OneSignalNotificationServiceExtension.appex/OneSignalNotificationServiceExtension</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			67QDA/6azWIT7n4TP4y2iaxQBOg=
+			</data>
+			<key>hash2</key>
+			<data>
+			MCxbze0ueEcFgsJQ/62r9CbD//wUTyY+bybYioPQdB4=
+			</data>
+		</dict>
+		<key>PlugIns/OneSignalNotificationServiceExtension.appex/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wSnpKHaQCxoI7AlBND3TjEEAK2I=
+			</data>
+			<key>hash2</key>
+			<data>
+			NYou7roAYuElz2Q6fRcmCJsf+E0JhH2L2pWvVHle5oA=
 			</data>
 		</dict>
 		<key>config.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dMVycGoLbSUVJBWJiBVVvt2OUlw=
+			4CZJJri7gKZK6LTZjt5dg3d5W1Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			foY6m9SsXo5I+V3ssDxJEeJIu1jhLi5CzZ72cC8oDRk=
+			vGnrygfOateADqD/ppSJ06F+Fp4yMj1OE5iIvNMGLIg=
 			</data>
 		</dict>
 		<key>scannerOverlay.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7cg+GXRbEEsQeFKLedaQNzou7x4=
+			FDQOn8Y1k2ZRw1DabYvlTbIDSPQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			eoB90zVL6X6013mwW8sSDV3uDEWNwGBcByNf/65qps0=
+			7fKEeIl50vcrWi67iqzHQm1OMs279UpM1jkfAewDHbs=
 			</data>
 		</dict>
 		<key>www/assets/css/animate.css</key>
@@ -2380,11 +2389,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PuBdnq4Ts3Ians5yheRFLYbuzro=
+			kquOHdle8Wyo3vc0hhU9sNrjmDA=
 			</data>
 			<key>hash2</key>
 			<data>
-			3O/l4Ssm3J4NBbtBL3ErMp/zf0D2lehlo3EnUjiIFm0=
+			KCwR/f+W4KzAczGAC+GXUipLWn3NE24S+dy9BlzrSBA=
 			</data>
 		</dict>
 		<key>www/build/0.js.map</key>
@@ -2396,160 +2405,6 @@
 			<key>hash2</key>
 			<data>
 			xF7Xc9UOzBqYTiFsPjlYdFha9XtE6AcZvS4rt+pcLek=
-			</data>
-		</dict>
-		<key>www/build/1.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AK/dr1DIQ1N0mVckw570rmsTpWA=
-			</data>
-			<key>hash2</key>
-			<data>
-			jIBMUNeDcojP2yjFdI4A2dDPCAWmsIAh1zc4l287TF8=
-			</data>
-		</dict>
-		<key>www/build/1.js.map</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zZT6dtKxMEsWTK+HietzjcKNeIo=
-			</data>
-			<key>hash2</key>
-			<data>
-			wxgk2QZvwkczzVXK3fpKV0YYZbxUYmU5WUweU5XmmKY=
-			</data>
-		</dict>
-		<key>www/build/2.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9aeGKZHBtb5EJl4RGwXsxE5GVUQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			QziiaYiNq5ngseZdAQVV2av3Qe/LA5rTiL11gz1nvso=
-			</data>
-		</dict>
-		<key>www/build/2.js.map</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/mfO/eGcH4L31JpTwK3qYpZhZ9w=
-			</data>
-			<key>hash2</key>
-			<data>
-			JFiN4ekoDgtgLshaDOok6kqpU82Qv/LWgLgq2em6Hw4=
-			</data>
-		</dict>
-		<key>www/build/3.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Z0M+NiQpZHkZe5PaNqYmYLi0QqA=
-			</data>
-			<key>hash2</key>
-			<data>
-			105rHuFccyGctmPc9mfzpEZpd/3BWO4X+gACmbQTpOs=
-			</data>
-		</dict>
-		<key>www/build/3.js.map</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DifTzNvXWAcDjmIY+xPLISDYE8s=
-			</data>
-			<key>hash2</key>
-			<data>
-			QLHlTx7QPr4wHgMIqsjhqgOCB9XrFayrjERrDQ50zZw=
-			</data>
-		</dict>
-		<key>www/build/4.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5E7OENqMoW+AOhm/0545EnhEy8k=
-			</data>
-			<key>hash2</key>
-			<data>
-			c/W1WYBkg3pW8hMpsHmxAb+eD+t3RcIFf8Q3/n/XJnI=
-			</data>
-		</dict>
-		<key>www/build/4.js.map</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vKpyrdMKQsj2ohTyHdfbO5A3Qqc=
-			</data>
-			<key>hash2</key>
-			<data>
-			R+EUVSPnH44dUzuHQ/okWhYShw9ZDnNRttUei2BMHUQ=
-			</data>
-		</dict>
-		<key>www/build/5.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			y5ycoygRCL9V/7go4nj66mWsqSc=
-			</data>
-			<key>hash2</key>
-			<data>
-			0c69BHAX4KMLAds84WTT4REK4xlQw2e/GN0Gduv9XME=
-			</data>
-		</dict>
-		<key>www/build/5.js.map</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6TmIDl/AHgl+/q/e9jQvXE1Vw9Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			uqd8e+57gOKhjLY2WG/CRE/64Z0PrFr8M+cx4bg84oU=
-			</data>
-		</dict>
-		<key>www/build/6.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DHMZbNYSjFNCS4a4GLGS18s1ibA=
-			</data>
-			<key>hash2</key>
-			<data>
-			VTMkT//51IFxPTkOzwXpb2ByhZ7jA75oO7Ujgf03PO0=
-			</data>
-		</dict>
-		<key>www/build/6.js.map</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PkM7xHDWZknhDPUMaoCEBkJTrS4=
-			</data>
-			<key>hash2</key>
-			<data>
-			7uEAH+9hO9Zz0h61SfKZn2k/KwyVSMvigDnhlH/pcI0=
-			</data>
-		</dict>
-		<key>www/build/7.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xbRV1Z34y5lfGP9GU8kpW6wqw8w=
-			</data>
-			<key>hash2</key>
-			<data>
-			skxwQA4RrfDqh5mCsdp5ZVzLx4M0rYFngvwUojFSZrc=
-			</data>
-		</dict>
-		<key>www/build/7.js.map</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			iRJRg3c2Pn8BkW7m+xR/iM+MzZ8=
-			</data>
-			<key>hash2</key>
-			<data>
-			r9KQorVgcQvMCWwBYiyk+13MmQ5c2cKh6oeVJi1NUjE=
 			</data>
 		</dict>
 		<key>www/build/main.css</key>
@@ -2578,22 +2433,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			b4emWO4GmpXkYKTGmkV3gonpEVE=
+			mpQ224p165+m4ahzTANJNpHnh34=
 			</data>
 			<key>hash2</key>
 			<data>
-			B/8jY9ThlHR8lOH3CisIxqdtbVUGMdnJF3OJxPeaYC8=
+			NFECfqz5CP04+Mq0k6JFb+bkaNV6NwS9rtE0Rx+EQJ8=
 			</data>
 		</dict>
 		<key>www/build/main.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ceTd9Nq0PE5CNjOBLKXsEcotlTs=
+			GF1W1MvriwcYfIXRTCjVaLll5TY=
 			</data>
 			<key>hash2</key>
 			<data>
-			j+YCOMXeOH8HcMY/GlHz8tO1dtXsGuRdHj9ku0iIS3g=
+			CWPxT2+DKTTsIiIdVto4PxhbG9srflfTvIfRFhEzE2A=
 			</data>
 		</dict>
 		<key>www/build/polyfills.js</key>
@@ -2622,22 +2477,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v5x+NJjCOA8UAUrSh2bNLcE/dxU=
+			EJof83TLYEVk/vtydj+2Fm4XId4=
 			</data>
 			<key>hash2</key>
 			<data>
-			0v1dHN4EROxAaak4XQSJmcfUlKYIBKNlIP6OsBhXrjk=
+			Rhl8qzdyKFAPcLqDh/fs+wjh55YIX0nhZh/gnN9Vh1c=
 			</data>
 		</dict>
 		<key>www/build/vendor.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/5ZhPi2fb4fKwCbPqaicTbDZcl0=
+			FFtf5pdWlthnqp7eieN2WR8XkJg=
 			</data>
 			<key>hash2</key>
 			<data>
-			JFnSGFbLawq5YwBhU3MrkXCUGdxQs3OquGaBVv0a1NU=
+			U7ZYL1IaEqIe2y48ZYm6s8f4ejUziVU0Rc9lhm66EtY=
 			</data>
 		</dict>
 		<key>www/cordova-js-src/exec.js</key>
@@ -2699,11 +2554,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			coTwVLun5IZnoDuDxneotQcpQ+o=
+			4ZE66AsaM6RRB8Sp2I5izmT7ikI=
 			</data>
 			<key>hash2</key>
 			<data>
-			XMZH6uTk541Rpvr8Yt9oEkf5mznPpED0xhynIkHkQ8I=
+			im78GXZ0Z5Q8bRiG5afUOclxT7vEC4IcNh+w8dI7O1Y=
 			</data>
 		</dict>
 		<key>www/index.html</key>
@@ -2728,6 +2583,17 @@
 			bhy0OvcYM5NzmPBTU92oxj81eQtM3+z12l08DTKg4bs=
 			</data>
 		</dict>
+		<key>www/plugins/cordova-plugin-app-update/www/AppUpdate.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b698+uWDrjBJqL44LsFTvIty8Pk=
+			</data>
+			<key>hash2</key>
+			<data>
+			Oeqi19wfrhhjP8bvKiw96L5uWjFnMSsllgS2P66XHqI=
+			</data>
+		</dict>
 		<key>www/plugins/cordova-plugin-appminimize/www/AppMinimize.js</key>
 		<dict>
 			<key>hash</key>
@@ -2737,6 +2603,17 @@
 			<key>hash2</key>
 			<data>
 			H+fVl20javMvjppIG7VDuIFi2FY04qn/FHcqyaWjK3w=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-appversion/www/app-version.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hDs8runPUWn2fPb6IbXFDM5yLA4=
+			</data>
+			<key>hash2</key>
+			<data>
+			YdQ7yUq6uVgmWg6/WRs2e2L6ihZ1UVwBV9V1RNrVBnU=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-contacts/www/Contact.js</key>
@@ -2915,6 +2792,17 @@
 			Qzg9DIlntqplnSe+2I6SHdH4EHOjaQt479rl1X7a+B4=
 			</data>
 		</dict>
+		<key>www/plugins/cordova-plugin-ionic/www/common.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Rt+J0dFGKnpm8+q0ylqh5/57Pgs=
+			</data>
+			<key>hash2</key>
+			<data>
+			p8wF8Dy2jHmMsCIQx4dXNxRKzuP80q4hv1fYhINfZ6A=
+			</data>
+		</dict>
 		<key>www/plugins/cordova-plugin-sim/www/sim.js</key>
 		<dict>
 			<key>hash</key>
@@ -2935,6 +2823,28 @@
 			<key>hash2</key>
 			<data>
 			YSn19P0zRIG9MxdesT37iqYB1WqXVOFIXyjmnTn6foU=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-vibration/www/vibration.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GCs8mOjv7LBLVsC3kCfqIFytEe0=
+			</data>
+			<key>hash2</key>
+			<data>
+			5HD8Dntp01/pUFyriUWUXU81vB+MRYfCb5kWphJH9ic=
+			</data>
+		</dict>
+		<key>www/plugins/onesignal-cordova-plugin/www/OneSignal.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MnDPq6gg1yQxDA3atG/hiYoSl4g=
+			</data>
+			<key>hash2</key>
+			<data>
+			xG3HTYpyldd5AG13r0buKGdeFstZqKZ4UxhZwxQJO3Y=
 			</data>
 		</dict>
 		<key>www/plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js</key>

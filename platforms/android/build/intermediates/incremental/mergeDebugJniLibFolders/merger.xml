@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/libs"><file name="barcodescanner-release-2.1.5.aar" path="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/libs/barcodescanner-release-2.1.5.aar"/></source></dataSet><dataSet config="debug"><source path="/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/src/debug/jniLibs"/></dataSet></merger>

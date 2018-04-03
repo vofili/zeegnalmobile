@@ -63,7 +63,7 @@ export class TabsPage {
         console.log('Tab selected', 'Index: ' + ev.index, 'Unique ID: ' + ev.id);
         if(ev.index ==0){
                     this.getinviterequestnoloading();
-                      Pro.monitoring.exception(new Error('error on select tab 1'));
+                     
         }
         if(ev.index ==1){
                      this.getinviterequestnoloading()
@@ -131,12 +131,7 @@ export class TabsPage {
                             handler: data => {
                               console.log("number has been detected ",data.phonenumber);
                               localStorage.setItem("userphonenumber",data.phonenumber);
-                              if(data.phonenumber && data.phonenumber.length < 10){
-                                  Pro.monitoring.log('Incorrect Phone number supplied '+data.phonenumber, { level: 'error' })
-                              }else{
                                   this.getallinvitesandrequests(data.phonenumber);
-                              }
-                              
                              
                             }
                           }
@@ -265,7 +260,10 @@ getinviterequestnoloading(){
             //   buttons: ['OK']
             // });
             // alert.present();
-
+            console.log(data['responsecode']);
+            console.log(data['responsemessage']);
+            console.log("Error retreiving invites");
+            console.log(JSON.stringify(data));
             let toast = this.toastCtrl.create({
                               message: JSON.stringify(data['responsemessage']),
                               duration: 3000,
@@ -273,9 +271,7 @@ getinviterequestnoloading(){
                             });
                             toast.present();
 
-            console.log(data['responsecode']);
-            console.log(data['responsemessage'])
-            console.log("Error retreiving invites")
+           
           }
 
           this.getallcommunities(phone);

@@ -156,6 +156,48 @@ module.exports = [
     "clobbers": [
       "cordova.plugins.barcodeScanner"
     ]
+  },
+  {
+    "id": "cordova-plugin-appversion.RareloopAppVersion",
+    "file": "plugins/cordova-plugin-appversion/www/app-version.js",
+    "pluginId": "cordova-plugin-appversion",
+    "clobbers": [
+      "AppVersion"
+    ]
+  },
+  {
+    "id": "cordova-plugin-app-update.AppUpdate",
+    "file": "plugins/cordova-plugin-app-update/www/AppUpdate.js",
+    "pluginId": "cordova-plugin-app-update",
+    "clobbers": [
+      "AppUpdate"
+    ]
+  },
+  {
+    "id": "cordova-plugin-vibration.notification",
+    "file": "plugins/cordova-plugin-vibration/www/vibration.js",
+    "pluginId": "cordova-plugin-vibration",
+    "merges": [
+      "navigator.notification",
+      "navigator"
+    ]
+  },
+  {
+    "id": "cordova-plugin-ionic.common",
+    "file": "plugins/cordova-plugin-ionic/www/common.js",
+    "pluginId": "cordova-plugin-ionic",
+    "clobbers": [
+      "IonicCordova"
+    ],
+    "runs": true
+  },
+  {
+    "id": "onesignal-cordova-plugin.OneSignal",
+    "file": "plugins/onesignal-cordova-plugin/www/OneSignal.js",
+    "pluginId": "onesignal-cordova-plugin",
+    "clobbers": [
+      "OneSignal"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -170,7 +212,12 @@ module.exports.metadata =
   "cordova-plugin-sim": "1.3.3",
   "cordova-plugin-splashscreen": "5.0.2",
   "cordova-plugin-whitelist": "1.3.3",
-  "phonegap-plugin-barcodescanner": "7.1.0"
+  "phonegap-plugin-barcodescanner": "7.1.0",
+  "cordova-plugin-appversion": "1.0.0",
+  "cordova-plugin-app-update": "1.5.4",
+  "cordova-plugin-vibration": "3.0.1",
+  "cordova-plugin-ionic": "4.1.3",
+  "onesignal-cordova-plugin": "2.3.3"
 };
 // BOTTOM OF METADATA
 });

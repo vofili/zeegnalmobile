@@ -102,4 +102,9 @@
         <variable name="WARN_DEBUG" value="true" />
         <variable name="UPDATE_API" value="https://api.ionicjs.com" />
     </plugin>
+    <plugin name="onesignal-cordova-plugin" spec="^2.3.3" />
+    <plugin name="cordova-plugin-code-push" spec="^1.11.9" />
+    <plugin name="cordova-plugin-file" spec="^4.3.3" />
+    <plugin name="cordova-plugin-file-transfer" spec="^1.6.3" />
+    <plugin name="cordova-plugin-zip" spec="^3.1.0" />
 </widget>

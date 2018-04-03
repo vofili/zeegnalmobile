@@ -51,10 +51,31 @@
       "UPDATE_METHOD": "background",
       "MAX_STORE": "2",
       "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-code-push": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-zip": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
     }
   },
   "dependent_plugins": {
     "cordova-plugin-appversion": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "code-push": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-compat": {
       "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
     }
   }
