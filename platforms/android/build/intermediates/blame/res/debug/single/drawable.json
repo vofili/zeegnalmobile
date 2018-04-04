@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/share_via_barcode.png",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/barcodescanner-release-2.1.5/res/drawable/share_via_barcode.png"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/launcher_icon.png",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/barcodescanner-release-2.1.5/res/drawable/launcher_icon.png"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/toggle_torch.png",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/barcodescanner-release-2.1.5/res/drawable/toggle_torch.png"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/flip_camera.png",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/barcodescanner-release-2.1.5/res/drawable/flip_camera.png"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/drawable/notification_bg_low.xml"
+    }
+]

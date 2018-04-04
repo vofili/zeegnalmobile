@@ -30,10 +30,13 @@ import { ZeegnalserviceProvider } from '../providers/zeegnalservice/zeegnalservi
 import { Contacts, Contact, ContactField, ContactName } from '@ionic-native/contacts';
 import { AppMinimize } from '@ionic-native/app-minimize';
 import { OneSignal } from '@ionic-native/onesignal';
+import { CodePush,InstallMode, SyncStatus  } from '@ionic-native/code-push';
 // These are all imports required for Pro Client with Monitoring & Deploy,
 // feel free to merge into existing imports above.
 import { Pro, DeployInfo} from '@ionic/pro';
 import { Injectable, Injector } from '@angular/core';
+
+
 
 Pro.init('70125b20', {
   appVersion: '0.0.1'
@@ -90,12 +93,12 @@ export class MyErrorHandler implements ErrorHandler {
   providers: [
     StatusBar,
     SplashScreen,
-     BarcodeScanner,
+    BarcodeScanner,
     Sim,
     Dialogs,IonicErrorHandler,
     {provide: ErrorHandler, useClass: MyErrorHandler},
     InvitationProvider,OneSignal,
-    ZeegnalserviceProvider,Contacts, Contact,AppMinimize
+    ZeegnalserviceProvider,Contacts, Contact,AppMinimize,CodePush
   ]
 })
 export class AppModule {}

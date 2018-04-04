@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.qucoon.mboile.zeegnalapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.qucoon.mboile.zeegnalapp" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Zeegnal</name>
     <description>An awesome Visitor Management App</description>
     <author email="info@qucoon.com" href="http://ionicframework.com/">Qucoon Development Team</author>
@@ -39,6 +39,12 @@
         <splash density="port-xhdpi" src="resources/android/splash/drawable-port-xhdpi-screen.png" />
         <splash density="port-xxhdpi" src="resources/android/splash/drawable-port-xxhdpi-screen.png" />
         <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
+    </platform>
+    <platform name="android">
+        <preference name="CodePushDeploymentKey" value="2RxB9bXoLjIroOw5kharvHu-B08M8ce33490-fd62-4733-846b-0948acdaad3a" />
+    </platform>
+    <platform name="ios">
+        <preference name="CodePushDeploymentKey" value="zqx9nm5UuTX0zjTX9-OgEcTFuZRA8ce33490-fd62-4733-846b-0948acdaad3a" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

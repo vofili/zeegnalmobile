@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/layout-land/encode.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/barcodescanner-release-2.1.5/res/layout-land/encode.xml"
+    },
+    {
+        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/layout-land/share.xml",
+        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/barcodescanner-release-2.1.5/res/layout-land/share.xml"
+    }
+]

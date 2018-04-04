@@ -6,7 +6,7 @@ webpackJsonp([1],{
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ZeegnalserviceProvider; });
 /* unused harmony export ZeegnalRequst */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
@@ -95,7 +95,7 @@ webpackEmptyAsyncContext.id = 126;
 
 var map = {
 	"../pages/userprofile/userprofile.module": [
-		473,
+		474,
 		0
 	]
 };
@@ -211,7 +211,7 @@ var PlacesPage = /** @class */ (function () {
     };
     PlacesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
-            selector: 'page-places',template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/places/places.html"*/'<!--\n  Generated template for the PlacesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-content>\n  <ion-list no-lines>\n   <ion-item-sliding  *ngFor ="let item of communityarray">\n     <ion-item  style="border-bottom:0.25px solid #c8c7cc;" (click)="gotoplacesdetail(item)">\n    <ion-avatar item-start >\n         <ngx-avatar name="{{item.name}} {{item.zeegnalcode}}"></ngx-avatar>\n  </ion-avatar>\n    <h2 style="font-weight:bold;font-size: 14px;">{{item.name}} {{item.zeegnalcode}}</h2>\n         <span style="font-size:10px;font-size: 10px;position: absolute;top: 8px;\n    right: 10px;color:grey" *ngIf="item.category==\'Company\'" item-end ><i class="fa fa-2x fa-building"></i></span>\n       <span style="font-size:10px;font-size: 10px;position: absolute;top: 8px;\n    right: 10px;color:grey"   *ngIf="item.category==\'Estate\'" item-end><i class="fa fa-2x fa-home"></i></span> \n    <p style="font-size:12px">{{item.membercode}} | {{item.category}}</p>\n    <p style="font-size:12px">{{item.phonenumber}}</p>\n    <p style="font-size:12px">{{item.memberstatus}}</p>\n       </ion-item>\n    <ion-item-options side="right">\n      <button ion-button color="light">\n        <ion-icon name="trash"></ion-icon>\n        <small>Exit <br/>{{item.name}}</small>\n      </button>\n    </ion-item-options>\n    </ion-item-sliding>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/places/places.html"*/,
+            selector: 'page-places',template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/places/places.html"*/'<!--\n  Generated template for the PlacesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-content>\n  <ion-list no-lines>\n   <ion-item-sliding  *ngFor ="let item of communityarray">\n     <ion-item  style="border-bottom:0.25px solid #c8c7cc;" (click)="gotoplacesdetail(item)">\n    <ion-avatar item-start >\n         <ngx-avatar name="{{item.name}} {{item.zeegnalcode}}"></ngx-avatar>\n  </ion-avatar>\n    <h2 style="font-weight:bold;font-size: 14px;">{{item.name}} {{item.zeegnalcode}}</h2>\n         <span style="font-size:10px;font-size: 10px;position: absolute;top: 8px;\n    right: 10px;color:grey" *ngIf="item.category==\'Company\'" item-end ><i class="fa fa-2x fa-building"></i></span>\n       <span style="font-size:10px;font-size: 10px;position: absolute;top: 8px;\n    right: 10px;color:grey"   *ngIf="item.category==\'Estate\'" item-end><i class="fa fa-2x fa-home"></i></span> \n    <p style="font-size:12px">{{item.membercode}} | {{item.category}}</p>\n    <p style="font-size:12px">{{item.phonenumber}}</p>\n    <p style="font-size:12px">{{item.memberstatus}}</p>\n       </ion-item>\n    <ion-item-options side="right">\n      <button ion-button color="light">\n        <ion-icon name="trash"></ion-icon>\n        <small>Exit <br/>{{item.name}}</small>\n      </button>\n    </ion-item-options>\n    </ion-item-sliding>\n  </ion-list>\n\n\n  <ion-fab right bottom>\n    <button ion-fab color="light">\n       <ion-icon ios="ios-camera" md="md-camera"></ion-icon></button>\n     <ion-fab-list side="left">\n      <button ion-fab><ion-icon ios="ios-qr-scanner" md="md-qr-scanner"></ion-icon></button>\n      <button ion-fab><ion-icon ios="md-create" md="md-create"></ion-icon></button>\n    </ion-fab-list> \n  </ion-fab>\n\n</ion-content>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/places/places.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["o" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* Events */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* App */]])
     ], PlacesPage);
@@ -275,7 +275,7 @@ var RequestdetailPage = /** @class */ (function () {
     };
     RequestdetailPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-requestdetail',template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/requestdetail/requestdetail.html"*/'<!--\n  Generated template for the RequestdetailPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Request</ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only>\n        <ion-icon name="md-more"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n			<div class="vertical-center txt-center">\n						\n              <span class="txt-center" style="font-size:12px;text-transform: uppercase;">You invited {{parObj.tofirstname}}  {{parObj.tolastname}}<br/> to visit {{parObj.name}}</span>\n              \n      \n      <ion-row data-transation="fadeInDown" data-start-time="400">\n      <ion-item text-center no-padding>\n      <ngx-qrcode [qrc-value] ="hashstring" qrc-class ="aclass" qrc-errorCorrectionLevel="L"></ngx-qrcode>\n      <span text-center class="text2 txt-light" style="font-size:12px;display:block;margin-top:5px;color:#04679b;font-weight:500">Access Code: \n        {{parObj.reference}}</span>\n    </ion-item>\n    </ion-row>\n   \n							<div style="margin-top: 20px;">\n                <span text-left class="text2 block txt-light" style="font-size:14px">{{parObj.tofirstname}}  {{parObj.tolastname}} is visiting you</span>\n              <hr/>\n              <span text-left  *ngIf="!arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> {{parObj.tofirstname}}  {{parObj.tolastname}} had access {{startdate}}</span>\n               <span text-left *ngIf="arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> {{parObj.tofirstname}}  {{parObj.tolastname}} will have access {{startdate}}</span>\n              <hr/>\n              <span text-left class="text2 block txt-light" style="font-size:14px"> This invitation expires  {{enddate}}</span>\n              <hr/>\n              <span text-left class="text2 block txt-light" style="font-size:14px"> This invitation is {{parObj.invitestatus}}</span>\n              <hr/>\n             \n							</div>\n						\n					</div>\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/requestdetail/requestdetail.html"*/,
+            selector: 'page-requestdetail',template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/requestdetail/requestdetail.html"*/'<!--\n  Generated template for the RequestdetailPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Request</ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only>\n        <ion-icon ios="md-more" md="md-more"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n			<div class="vertical-center txt-center">\n						\n              <span class="txt-center" style="font-size:12px;text-transform: uppercase;">You invited {{parObj.tofirstname}}  {{parObj.tolastname}}<br/> to visit {{parObj.name}}</span>\n              \n      \n      <ion-row data-transation="fadeInDown" data-start-time="400">\n      <ion-item text-center no-padding>\n      <ngx-qrcode [qrc-value] ="hashstring" qrc-class ="aclass" qrc-errorCorrectionLevel="L"></ngx-qrcode>\n      <span text-center class="text2 txt-light" style="font-size:12px;display:block;margin-top:5px;color:#04679b;font-weight:500">Access Code: \n        {{parObj.reference}}</span>\n    </ion-item>\n    </ion-row>\n   \n							<div style="margin-top: 20px;">\n                <span text-left class="text2 block txt-light" style="font-size:14px">{{parObj.tofirstname}}  {{parObj.tolastname}} is visiting you</span>\n              <hr/>\n              <span text-left  *ngIf="!arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> {{parObj.tofirstname}}  {{parObj.tolastname}} had access {{startdate}}</span>\n               <span text-left *ngIf="arrivaltimestatus" class="text2 block txt-light" style="font-size:14px"> {{parObj.tofirstname}}  {{parObj.tolastname}} will have access {{startdate}}</span>\n              <hr/>\n              <span text-left class="text2 block txt-light" style="font-size:14px"> This invitation expires  {{enddate}}</span>\n              <hr/>\n              <span text-left class="text2 block txt-light" style="font-size:14px"> This invitation is {{parObj.invitestatus}}</span>\n              <hr/>\n             \n							</div>\n						\n					</div>\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/requestdetail/requestdetail.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
     ], RequestdetailPage);
@@ -294,7 +294,7 @@ var RequestdetailPage = /** @class */ (function () {
 /* unused harmony export getguid */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__about_about__ = __webpack_require__(334);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__requestdetail_requestdetail__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common_http__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common_http__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_moment__ = __webpack_require__(1);
@@ -406,7 +406,7 @@ var RequestPage = /** @class */ (function () {
     };
     RequestPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_3__angular_core__["Component"])({
-            selector: 'page-request',template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/request/request.html"*/'<ion-content>\n  <ion-refresher (ionRefresh)="doRefresh($event)">\n    <ion-refresher-content></ion-refresher-content>\n  </ion-refresher>\n  <ion-list no-lines>\n  <ion-item  *ngFor ="let inviteitem of receivedarray" (click)="gotorequestdetail(inviteitem)" style="border-bottom:0.25px solid #c8c7cc;">\n    <ion-avatar item-start >\n         <ngx-avatar name="{{inviteitem.tofirstname}} {{inviteitem.tolastname}}"></ngx-avatar>\n  </ion-avatar>\n    <h2 style="font-weight:bold;font-size: 14px;">{{inviteitem.tofirstname}} {{inviteitem.tolastname}}</h2>\n        <span style="font-size:10px;font-size: 10px;position: absolute;top: 8px;\n    left: 220px;color: rgba(0, 0, 0, 0.5)" item-end>\n      <i style="padding-right:2px" class="fa fa-clock-o"></i>\n     {{inviteitem.createdat | date:\'shortTime\'}} {{calctimeleft(inviteitem.createdat)}}</span>\n    <p style="font-size:12px">{{inviteitem.tophonenumber}}</p>\n    <p style="font-size:12px">{{inviteitem.name}}</p>\n    </ion-item>\n  </ion-list>\n\n  <ion-fab right bottom>\n    <button ion-fab color="light" (click)="createNewInvite()">  <ion-icon ios="ios-add" md="md-add"></ion-icon></button>\n    <!-- <ion-fab-list side="left">\n      <button ion-fab><ion-icon ios="ios-add" md="md-add" ></ion-icon></button>\n    </ion-fab-list> -->\n  </ion-fab>\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/request/request.html"*/,
+            selector: 'page-request',template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/request/request.html"*/'<ion-content>\n  <ion-refresher (ionRefresh)="doRefresh($event)">\n    <ion-refresher-content></ion-refresher-content>\n  </ion-refresher>\n  <ion-list no-lines>\n  <ion-item  *ngFor ="let inviteitem of receivedarray" (click)="gotorequestdetail(inviteitem)" style="border-bottom:0.25px solid #c8c7cc;">\n    <ion-avatar item-start >\n         <ngx-avatar name="{{inviteitem.tofirstname}} {{inviteitem.tolastname}}"></ngx-avatar>\n  </ion-avatar>\n    <h2 style="font-weight:bold;font-size: 14px;">{{inviteitem.tofirstname}} {{inviteitem.tolastname}}</h2>\n        <span style="font-size:10px;font-size: 10px;position: absolute;top: 8px;\n    left: 220px;color: rgba(0, 0, 0, 0.5)" item-end>\n      <i style="padding-right:2px" class="fa fa-clock-o"></i>\n     {{inviteitem.createdat | date:\'shortTime\'}} {{calctimeleft(inviteitem.createdat)}}</span>\n    <p style="font-size:12px">{{inviteitem.tophonenumber}}</p>\n    <p style="font-size:12px">{{inviteitem.name}}</p>\n    </ion-item>\n  </ion-list>\n\n  <ion-fab right bottom>\n    <button ion-fab color="light" (click)="createNewInvite()">\n       <ion-icon ios="ios-create" md="md-create"></ion-icon></button>\n    <!-- <ion-fab-list side="left">\n      <button ion-fab><ion-icon ios="ios-add" md="md-add" ></ion-icon></button>\n    </ion-fab-list> -->\n  </ion-fab>\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/request/request.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["o" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */],
             __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["f" /* Events */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["b" /* App */]])
@@ -433,8 +433,8 @@ function getguid() {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
 /* unused harmony export getguid */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic2_super_tabs__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__validators_usernamevalidator__ = __webpack_require__(434);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common_http__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__validators_usernamevalidator__ = __webpack_require__(435);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common_http__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ionic_angular__ = __webpack_require__(7);
@@ -807,7 +807,7 @@ var InvitedetailPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__places_places__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_zeegnalservice_zeegnalservice__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ionic2_super_tabs__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__home_home__ = __webpack_require__(349);
@@ -1265,7 +1265,7 @@ var TabsPage = /** @class */ (function () {
         __metadata("design:type", Object)
     ], TabsPage.prototype, "formslider", void 0);
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_4__angular_core__["Component"])({template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/tabs/tabs.html"*/'\n<ion-header>\n<ion-toolbar>\n   \n    <ion-title>Zeegnal</ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only>\n        <ion-icon name="more"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-toolbar>\n\n  <!-- <ion-navbar>\n    <ion-title>Zeegnal</ion-title>\n  </ion-navbar> -->\n\n</ion-header>\n<ion-content>\n<super-tabs  no-shadow id="mainTabs" tabsPlacement="top" selectedTabIndex="0" toolbarBackground="light"  indicatorColor="softgrey" badgeColor="light" [config]="{ sideMenu: \'both\' }" (tabSelect)="onTabSelect($event)">\n  <super-tab [root]="tab1Root" title="My Hosts" id="inviteTab"></super-tab>\n  <super-tab [root]="tab2Root" title="My Guests" id="outboxTab"></super-tab>\n  <super-tab [root]="tab3Root" title="My Places" icon="" id="newrequestTab"> </super-tab>\n</super-tabs>\n</ion-content>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/tabs/tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_4__angular_core__["Component"])({template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/tabs/tabs.html"*/'\n<ion-header>\n<ion-toolbar>\n   \n    <ion-title>Zeegnal</ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only>\n         <ion-icon ios="md-more" md="md-more"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-toolbar>\n\n  <!-- <ion-navbar>\n    <ion-title>Zeegnal</ion-title>\n  </ion-navbar> -->\n\n</ion-header>\n<ion-content>\n<super-tabs  no-shadow id="mainTabs" tabsPlacement="top" selectedTabIndex="0" toolbarBackground="light"  indicatorColor="softgrey" badgeColor="light" [config]="{ sideMenu: \'both\' }" (tabSelect)="onTabSelect($event)">\n  <super-tab [root]="tab1Root" title="My Hosts" id="inviteTab"></super-tab>\n  <super-tab [root]="tab2Root" title="My Guests" id="outboxTab"></super-tab>\n  <super-tab [root]="tab3Root" title="My Places" icon="" id="newrequestTab"> </super-tab>\n</super-tabs>\n</ion-content>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/tabs/tabs.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5_ionic2_super_tabs__["b" /* SuperTabsController */], __WEBPACK_IMPORTED_MODULE_3__angular_common_http__["a" /* HttpClient */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* AlertController */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["l" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["o" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1__providers_zeegnalservice_zeegnalservice__["a" /* ZeegnalserviceProvider */],
@@ -1297,7 +1297,7 @@ function getguid() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__entercode_entercode__ = __webpack_require__(344);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__invitedetail_invitedetail__ = __webpack_require__(345);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic2_super_tabs__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common_http__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common_http__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ionic_angular__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_barcode_scanner__ = __webpack_require__(350);
@@ -1577,7 +1577,7 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_5__angular_core__["Component"])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/home/home.html"*/'\n<ion-content >\n<!-- <div>\n<ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>\n</div> -->\n<ion-refresher (ionRefresh)="doRefresh($event)">\n    <ion-refresher-content></ion-refresher-content>\n  </ion-refresher>\n  <ion-list no-lines>\n     <!-- <ion-item>{{(myjson | async)?.results[0].name.first}}</ion-item> -->\n  <ion-item *ngFor =" let inviteitem of allinvitationobj" (click)="gotoinvitedetail(inviteitem)" style="border-bottom:0.25px solid #c8c7cc;">\n    <!-- <ion-avatar item-start>\n      <ngx-qrcode [qrc-value]= "inviteitem.hashstring" qrc-class = "aclass"  qrc-errorCorrectionLevel = "L"></ngx-qrcode>\n    </ion-avatar> -->\n    <ion-avatar item-start>\n        <ngx-avatar  name="{{inviteitem.fromlastname}} {{inviteitem.fromfirstname}}"></ngx-avatar>\n    </ion-avatar>\n    <h2 style="font-weight:bold;font-size: 14px;">{{inviteitem.fromlastname}} {{inviteitem.fromfirstname}}</h2>\n    <span style="font-size:10px;font-size: 10px;position: absolute;top: 8px;\n    left: 210px;color: rgba(0, 0, 0, 0.5)" item-end>\n      <i style="padding-right:2px" class="fa fa-clock-o"></i>\n     {{inviteitem.createdat | date:\'shortTime\'}} {{calctimeleft(inviteitem.createdat)}}</span>\n    <p style="font-size:12px">{{inviteitem.fromphonenumber}}</p>\n    <p style="font-size:12px">{{inviteitem.name}}</p>\n  </ion-item>\n</ion-list>\n\n <ion-fab right bottom>\n    <button ion-fab color="light"><ion-icon ios="ios-unlock" md="md-unlock"></ion-icon></button>\n    <ion-fab-list side="left">\n      <button ion-fab (click)="qrcodescan()"><ion-icon ios="ios-qr-scanner" md="md-qr-scanner" ></ion-icon></button>\n      <button ion-fab (click)="gotoentercode()"> <ion-icon ios="ios-settings" md="md-settings"></ion-icon></button>\n    </ion-fab-list>\n  </ion-fab>\n</ion-content>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/home/home.html"*/'\n<ion-content >\n<!-- <div>\n<ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>\n</div> -->\n<ion-refresher (ionRefresh)="doRefresh($event)">\n    <ion-refresher-content></ion-refresher-content>\n  </ion-refresher>\n  <ion-list no-lines>\n     <!-- <ion-item>{{(myjson | async)?.results[0].name.first}}</ion-item> -->\n  <ion-item *ngFor =" let inviteitem of allinvitationobj" (click)="gotoinvitedetail(inviteitem)" style="border-bottom:0.25px solid #c8c7cc;">\n    <!-- <ion-avatar item-start>\n      <ngx-qrcode [qrc-value]= "inviteitem.hashstring" qrc-class = "aclass"  qrc-errorCorrectionLevel = "L"></ngx-qrcode>\n    </ion-avatar> -->\n    <ion-avatar item-start>\n        <ngx-avatar  name="{{inviteitem.fromlastname}} {{inviteitem.fromfirstname}}"></ngx-avatar>\n    </ion-avatar>\n    <h2 style="font-weight:bold;font-size: 14px;">{{inviteitem.fromlastname}} {{inviteitem.fromfirstname}}</h2>\n    <span style="font-size:10px;font-size: 10px;position: absolute;top: 8px;\n    left: 210px;color: rgba(0, 0, 0, 0.5)" item-end>\n      <i style="padding-right:2px" class="fa fa-clock-o"></i>\n     {{inviteitem.createdat | date:\'shortTime\'}} {{calctimeleft(inviteitem.createdat)}}</span>\n    <p style="font-size:12px">{{inviteitem.fromphonenumber}}</p>\n    <p style="font-size:12px">{{inviteitem.name}}</p>\n  </ion-item>\n</ion-list>\n\n <ion-fab right bottom>\n    <button ion-fab color="light"><ion-icon ios="ios-camera" md="md-camera"></ion-icon></button>\n    <ion-fab-list side="left">\n      <button ion-fab (click)="qrcodescan()"><ion-icon ios="ios-qr-scanner" md="md-qr-scanner" ></ion-icon></button>\n       <button ion-fab  (click)="gotoentercode()"><ion-icon ios="md-create" md="md-create"></ion-icon></button>\n    </ion-fab-list>\n  </ion-fab>\n</ion-content>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_6_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_barcode_scanner__["a" /* BarcodeScanner */], __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["a" /* HttpClient */],
             __WEBPACK_IMPORTED_MODULE_9__ionic_native_dialogs__["a" /* Dialogs */], __WEBPACK_IMPORTED_MODULE_8__ionic_native_sim__["a" /* Sim */], __WEBPACK_IMPORTED_MODULE_6_ionic_angular__["l" /* LoadingController */],
@@ -1599,13 +1599,13 @@ function getguid() {
 
 /***/ }),
 
-/***/ 358:
+/***/ 359:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(359);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(378);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(379);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -1613,13 +1613,13 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 378:
+/***/ 379:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export MyErrorHandler */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_scanner_scanner__ = __webpack_require__(379);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_scanner_scanner__ = __webpack_require__(380);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pages_communitydetail_communitydetail__ = __webpack_require__(207);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_places_places__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_requestdetail_requestdetail__ = __webpack_require__(209);
@@ -1629,9 +1629,9 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_platform_browser__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_component__ = __webpack_require__(445);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_component__ = __webpack_require__(446);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_about_about__ = __webpack_require__(334);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_contact_contact__ = __webpack_require__(446);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_contact_contact__ = __webpack_require__(447);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_home_home__ = __webpack_require__(349);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_tabs_tabs__ = __webpack_require__(348);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_status_bar__ = __webpack_require__(346);
@@ -1639,18 +1639,19 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_dialogs__ = __webpack_require__(351);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_barcode_scanner__ = __webpack_require__(350);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_native_sim__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_ngx_qrcode2__ = __webpack_require__(447);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_ngx_qrcode2__ = __webpack_require__(448);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_ionic2_super_tabs__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__angular_common_http__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_ngx_avatar__ = __webpack_require__(467);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__angular_common_http__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_ngx_avatar__ = __webpack_require__(468);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_ngx_avatar___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_23_ngx_avatar__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__providers_invitation_invitation__ = __webpack_require__(471);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__providers_invitation_invitation__ = __webpack_require__(472);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__providers_zeegnalservice_zeegnalservice__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_contacts__ = __webpack_require__(342);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_app_minimize__ = __webpack_require__(352);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_onesignal__ = __webpack_require__(353);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_pro__ = __webpack_require__(472);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_pro___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_29__ionic_pro__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_native_code_push__ = __webpack_require__(354);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__ionic_pro__ = __webpack_require__(473);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__ionic_pro___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_30__ionic_pro__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1689,11 +1690,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 // These are all imports required for Pro Client with Monitoring & Deploy,
 // feel free to merge into existing imports above.
 
 
-__WEBPACK_IMPORTED_MODULE_29__ionic_pro__["Pro"].init('70125b20', {
+__WEBPACK_IMPORTED_MODULE_30__ionic_pro__["Pro"].init('70125b20', {
     appVersion: '0.0.1'
 });
 var MyErrorHandler = /** @class */ (function () {
@@ -1711,7 +1713,7 @@ var MyErrorHandler = /** @class */ (function () {
     MyErrorHandler.prototype.handleError = function (err) {
         console.log("handleError");
         console.log(err);
-        __WEBPACK_IMPORTED_MODULE_29__ionic_pro__["Pro"].monitoring.handleNewError(err);
+        __WEBPACK_IMPORTED_MODULE_30__ionic_pro__["Pro"].monitoring.handleNewError(err);
         // Remove this if you want to disable Ionic's auto exception handling
         // in development mode.
         this.ionicErrorHandler && this.ionicErrorHandler.handleError(err);
@@ -1762,7 +1764,7 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_17__ionic_native_dialogs__["a" /* Dialogs */], __WEBPACK_IMPORTED_MODULE_9_ionic_angular__["i" /* IonicErrorHandler */],
                 { provide: __WEBPACK_IMPORTED_MODULE_7__angular_core__["ErrorHandler"], useClass: MyErrorHandler },
                 __WEBPACK_IMPORTED_MODULE_24__providers_invitation_invitation__["a" /* InvitationProvider */], __WEBPACK_IMPORTED_MODULE_28__ionic_native_onesignal__["a" /* OneSignal */],
-                __WEBPACK_IMPORTED_MODULE_25__providers_zeegnalservice_zeegnalservice__["a" /* ZeegnalserviceProvider */], __WEBPACK_IMPORTED_MODULE_26__ionic_native_contacts__["b" /* Contacts */], __WEBPACK_IMPORTED_MODULE_26__ionic_native_contacts__["a" /* Contact */], __WEBPACK_IMPORTED_MODULE_27__ionic_native_app_minimize__["a" /* AppMinimize */]
+                __WEBPACK_IMPORTED_MODULE_25__providers_zeegnalservice_zeegnalservice__["a" /* ZeegnalserviceProvider */], __WEBPACK_IMPORTED_MODULE_26__ionic_native_contacts__["b" /* Contacts */], __WEBPACK_IMPORTED_MODULE_26__ionic_native_contacts__["a" /* Contact */], __WEBPACK_IMPORTED_MODULE_27__ionic_native_app_minimize__["a" /* AppMinimize */], __WEBPACK_IMPORTED_MODULE_29__ionic_native_code_push__["a" /* CodePush */]
             ]
         })
     ], AppModule);
@@ -1773,7 +1775,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 379:
+/***/ 380:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1818,7 +1820,7 @@ var ScannerPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 422:
+/***/ 423:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -2083,11 +2085,11 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 422;
+webpackContext.id = 423;
 
 /***/ }),
 
-/***/ 434:
+/***/ 435:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2118,7 +2120,7 @@ var UsernameValidator = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 445:
+/***/ 446:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2129,6 +2131,7 @@ var UsernameValidator = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(347);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(348);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_onesignal__ = __webpack_require__(353);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_code_push__ = __webpack_require__(354);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2144,11 +2147,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var MyApp = /** @class */ (function () {
-    function MyApp(platform, statusBar, onesignal, splashScreen, alertCtrl) {
+    function MyApp(platform, statusBar, onesignal, splashScreen, alertCtrl, codepush) {
         var _this = this;
         this.onesignal = onesignal;
         this.alertCtrl = alertCtrl;
+        this.codepush = codepush;
         this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__["a" /* TabsPage */];
         platform.ready().then(function () {
             // Okay, so the platform is ready and our plugins are available.
@@ -2158,16 +2163,28 @@ var MyApp = /** @class */ (function () {
             if (platform.is('cordova')) {
                 _this.setupPush();
             }
+            _this.checkCodePush();
         });
     }
+    MyApp.prototype.checkCodePush = function () {
+        this.codepush.sync({
+            updateDialog: {
+                appendReleaseDescription: true,
+                descriptionPrefix: "\n\nChange log:\n"
+            },
+            installMode: __WEBPACK_IMPORTED_MODULE_6__ionic_native_code_push__["b" /* InstallMode */].IMMEDIATE
+        }).subscribe(function (data) {
+            console.log('CODE PUSH SUCCESSFUL: ');
+            console.log(JSON.stringify(data));
+        }, function (err) {
+            console.log('CODE PUSH ERROR: ');
+            console.log(JSON.stringify(err));
+        });
+    };
     MyApp.prototype.setupPush = function () {
         var _this = this;
         console.log("running push initialisation");
         this.onesignal.startInit('138cbc9d-3730-4ce7-a3b0-eabe6c8137b3', '900625325721');
-        //   this.onesignal.getIds().then(data =>{
-        // console.log(data.pushToken);
-        // console.log(data.userId);
-        // })
         this.onesignal.handleNotificationReceived().subscribe(function (data) {
             console.log("we received a push note ");
             console.log(JSON.stringify(data));
@@ -2186,11 +2203,19 @@ var MyApp = /** @class */ (function () {
             alert.present();
         });
         this.onesignal.endInit();
+        var notificationOpenedCallback = function (jsonData) {
+            console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+        };
+        window["plugins"].OneSignal
+            .startInit("138cbc9d-3730-4ce7-a3b0-eabe6c8137b3", "900625325721")
+            .handleNotificationOpened(notificationOpenedCallback)
+            .endInit();
     };
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/src/app/app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_onesignal__["a" /* OneSignal */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_onesignal__["a" /* OneSignal */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_code_push__["a" /* CodePush */]])
     ], MyApp);
     return MyApp;
 }());
@@ -2199,13 +2224,13 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 446:
+/***/ 447:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactPage; });
 /* unused harmony export getguid */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -2263,12 +2288,12 @@ function getguid() {
 
 /***/ }),
 
-/***/ 471:
+/***/ 472:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InvitationProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2303,5 +2328,5 @@ var InvitationProvider = /** @class */ (function () {
 
 /***/ })
 
-},[358]);
+},[359]);
 //# sourceMappingURL=main.js.map

@@ -1,0 +1,48 @@
+URL: https://onesignal.com/api/v1/notifications
+
+Request Object
+{
+  "app_id": "138cbc9d-3730-4ce7-a3b0-eabe6c8137b3",
+  "include_player_ids": ["ecc5cd9d-3148-49cc-8609-7565b3247df9"],
+  "data": {"title": "Zeegnal Request","url":"https://www.zeegnal.com"},
+  "contents": {"en": "You new zeegnal has been sent"}
+}
+
+Response Object
+{
+    "id": "be2d74c3-d94b-46a3-9a0b-7e18bb2e218b",
+    "recipients": 1
+}
+
+CODE PUSH DEPLOYMENT KEYS
+
+Successfully added the "zeegnal-ios" app, along with the following default deployments:
+┌────────────┬──────────────────────────────────────────────────────────────────┐
+│ Name       │ Deployment Key                                                   │
+├────────────┼──────────────────────────────────────────────────────────────────┤
+│ Production │ zqx9nm5UuTX0zjTX9-OgEcTFuZRA8ce33490-fd62-4733-846b-0948acdaad3a │
+├────────────┼──────────────────────────────────────────────────────────────────┤
+│ Staging    │ stsj8lnwyXJtg2aNTGKdPuPXfEw98ce33490-fd62-4733-846b-0948acdaad3a │
+└────────────┴──────────────────────────────────────────────────────────────────┘
+Valentines-MacBook-Pro:zeegnaltabdemo val$ code-push app add zeegnal-android android cordova
+Successfully added the "zeegnal-android" app, along with the following default deployments:
+┌────────────┬──────────────────────────────────────────────────────────────────┐
+│ Name       │ Deployment Key                                                   │
+├────────────┼──────────────────────────────────────────────────────────────────┤
+│ Production │ 2RxB9bXoLjIroOw5kharvHu-B08M8ce33490-fd62-4733-846b-0948acdaad3a │
+├────────────┼──────────────────────────────────────────────────────────────────┤
+│ Staging    │ 3KP2neJFZtl5jp0PXxOXMIISMc5W8ce33490-fd62-4733-846b-0948acdaad3a │
+└────────────┴──────────────────────────────────────────────────────────────────┘
+Valentines-MacBook-Pro:zeegnaltabdemo val$ code-push deployment ls zeegnal-android -k
+┌────────────┬──────────────────────────────────────────────────────────────────┬─────────────────────┬──────────────────────┐
+│ Name       │ Deployment Key                                                   │ Update Metadata     │ Install Metrics      │
+├────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────┼──────────────────────┤
+│ Production │ 2RxB9bXoLjIroOw5kharvHu-B08M8ce33490-fd62-4733-846b-0948acdaad3a │ No updates released │ No installs recorded │
+├────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────┼──────────────────────┤
+│ Staging    │ 3KP2neJFZtl5jp0PXxOXMIISMc5W8ce33490-fd62-4733-846b-0948acdaad3a │ No updates released │ No installs recorded │
+
+
+ionic cordova prepare android
+
+code-push release codepush-ionic-test-android ./platforms/android/assets/www/ 0.0.1
+--description "Your awesome change description" -d "Staging" (the -d flag can be "Production" or "Staging", so you can manage and test your releases against staging APPs)
