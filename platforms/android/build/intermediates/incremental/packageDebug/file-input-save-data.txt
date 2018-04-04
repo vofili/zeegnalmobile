@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Apr 04 02:30:17 WAT 2018
+#Wed Apr 04 03:38:28 WAT 2018
 20.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
 143.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
 439.set=ASSET
@@ -45,7 +45,7 @@
 123.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_
 149.set=ASSET
 156.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
-50.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
+50.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_custom_big.xml
 327.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
 66.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
 189.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
@@ -141,7 +141,7 @@
 257.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
 428.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
 104.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug/www/assets/fonts/fontawesome-webfont.woff2
-137.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+137.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_part_time.xml
 308.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/layout/help.xml
 47.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug/www/assets/img/gallery/img1.jpg
 372.set=ASSET
@@ -497,12 +497,12 @@
 261.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/ic_os_notification_fallback_white_24dp.png
 432.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_os_notification_fallback_white_24dp.png
 415.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
-294.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_lines_media.xml
+294.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/layout-land/share.xml
 277.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
 396.set=ASSET
 124.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug/html-zh-rTW/scanning.html
 157.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/layout-ldpi-v4/capture.xml
-328.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/notification_bg_low_normal.9.png
+328.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_big_media_narrow.xml
 242.set=ASSET
 67.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
 120.set=ASSET
@@ -812,7 +812,7 @@
 124.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
 159.set=ANDROID_RESOURCE
 157.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_
-51.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_custom_big.xml
+51.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
 328.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_
 354.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_text_light_normal.xml
 67.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_
@@ -905,7 +905,7 @@
 429.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
 105.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug/html-de/about2d.html
 174.set=ANDROID_RESOURCE
-138.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_part_time.xml
+138.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
 48.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug/html-zh-rCN/about1d.html
 382.set=ASSET
 26.set=ASSET
@@ -1058,7 +1058,7 @@
 431.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug/html-nl/scanning.html
 414.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_
 431.set=ASSET
-293.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/layout-land/share.xml
+293.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_lines_media.xml
 276.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
 386.set=ANDROID_RESOURCE
 123.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_text_dark.xml
@@ -1263,7 +1263,7 @@ count=441
 278.base=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug
 125.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug/style.css
 158.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/assets/debug/www/plugins/cordova-plugin-file/www/requestFileSystem.js
-329.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_big_media_narrow.xml
+329.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/notification_bg_low_normal.9.png
 252.set=ASSET
 68.file=/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar/protobuf.meta
 130.set=ANDROID_RESOURCE

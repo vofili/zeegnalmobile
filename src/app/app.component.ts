@@ -37,6 +37,7 @@ export class MyApp {
        descriptionPrefix: "\n\nChange log:\n"   
       },
       installMode: InstallMode.IMMEDIATE
+      
    }).subscribe(
      (data) => {
       console.log('CODE PUSH SUCCESSFUL: ')

@@ -41,8 +41,9 @@ Valentines-MacBook-Pro:zeegnaltabdemo val$ code-push deployment ls zeegnal-andro
 ├────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────┼──────────────────────┤
 │ Staging    │ 3KP2neJFZtl5jp0PXxOXMIISMc5W8ce33490-fd62-4733-846b-0948acdaad3a │ No updates released │ No installs recorded │
 
-
 ionic cordova prepare android
 
 code-push release codepush-ionic-test-android ./platforms/android/assets/www/ 0.0.1
 --description "Your awesome change description" -d "Staging" (the -d flag can be "Production" or "Staging", so you can manage and test your releases against staging APPs)
+
+code-push release-cordova MyApp-Android android
