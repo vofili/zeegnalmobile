@@ -37,9 +37,6 @@
     "phonegap-plugin-barcodescanner": {
       "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
     },
-    "cordova-plugin-app-update": {
-      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
-    },
     "cordova-plugin-vibration": {
       "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
     },
@@ -66,12 +63,19 @@
     },
     "cordova-plugin-zip": {
       "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-calendar": {
+      "CALENDAR_USAGE_DESCRIPTION": " ",
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "com.danielsogl.cordova.deviceaccounts": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
     }
   },
   "dependent_plugins": {
-    "cordova-plugin-appversion": {
-      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
-    },
     "code-push": {
       "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
     },

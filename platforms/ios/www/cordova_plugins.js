@@ -158,22 +158,6 @@ module.exports = [
     ]
   },
   {
-    "id": "cordova-plugin-appversion.RareloopAppVersion",
-    "file": "plugins/cordova-plugin-appversion/www/app-version.js",
-    "pluginId": "cordova-plugin-appversion",
-    "clobbers": [
-      "AppVersion"
-    ]
-  },
-  {
-    "id": "cordova-plugin-app-update.AppUpdate",
-    "file": "plugins/cordova-plugin-app-update/www/AppUpdate.js",
-    "pluginId": "cordova-plugin-app-update",
-    "clobbers": [
-      "AppUpdate"
-    ]
-  },
-  {
     "id": "cordova-plugin-vibration.notification",
     "file": "plugins/cordova-plugin-vibration/www/vibration.js",
     "pluginId": "cordova-plugin-vibration",
@@ -479,6 +463,30 @@ module.exports = [
     "clobbers": [
       "zip"
     ]
+  },
+  {
+    "id": "cordova-plugin-calendar.Calendar",
+    "file": "plugins/cordova-plugin-calendar/www/Calendar.js",
+    "pluginId": "cordova-plugin-calendar",
+    "clobbers": [
+      "Calendar"
+    ]
+  },
+  {
+    "id": "com.danielsogl.cordova.deviceaccounts.DeviceAccounts",
+    "file": "plugins/com.danielsogl.cordova.deviceaccounts/www/DeviceAccounts.js",
+    "pluginId": "com.danielsogl.cordova.deviceaccounts",
+    "clobbers": [
+      "plugins.DeviceAccounts"
+    ]
+  },
+  {
+    "id": "cordova-plugin-battery-status.battery",
+    "file": "plugins/cordova-plugin-battery-status/www/battery.js",
+    "pluginId": "cordova-plugin-battery-status",
+    "clobbers": [
+      "navigator.battery"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -494,8 +502,6 @@ module.exports.metadata =
   "cordova-plugin-splashscreen": "5.0.2",
   "cordova-plugin-whitelist": "1.3.3",
   "phonegap-plugin-barcodescanner": "7.1.0",
-  "cordova-plugin-appversion": "1.0.0",
-  "cordova-plugin-app-update": "1.5.4",
   "cordova-plugin-vibration": "3.0.1",
   "cordova-plugin-ionic": "4.1.3",
   "onesignal-cordova-plugin": "2.3.3",
@@ -504,7 +510,10 @@ module.exports.metadata =
   "cordova-plugin-compat": "1.2.0",
   "cordova-plugin-file": "4.3.3",
   "cordova-plugin-file-transfer": "1.6.3",
-  "cordova-plugin-zip": "3.1.0"
+  "cordova-plugin-zip": "3.1.0",
+  "cordova-plugin-calendar": "5.0.0",
+  "com.danielsogl.cordova.deviceaccounts": "1.0.0",
+  "cordova-plugin-battery-status": "2.0.1"
 };
 // BOTTOM OF METADATA
 });

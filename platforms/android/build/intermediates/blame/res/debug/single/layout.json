@@ -52,10 +52,6 @@
         "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/barcodescanner-release-2.1.5/res/layout/help.xml"
     },
     {
-        "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/layout/appupdate_progress.xml",
-        "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/res/layout/appupdate_progress.xml"
-    },
-    {
         "merged": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/Users/val/Desktop/ionicmobile/keystonemobile/zeegnaltabdemo/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/layout/notification_template_part_time.xml"
     },

@@ -14,6 +14,8 @@ Response Object
     "recipients": 1
 }
 
+http://microsoft.github.io/code-push/docs/getting-started.html
+
 CODE PUSH DEPLOYMENT KEYS
 
 Successfully added the "zeegnal-ios" app, along with the following default deployments:

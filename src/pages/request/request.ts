@@ -1,3 +1,4 @@
+import { PopoverPage } from './../tabs/tabs';
 import { AboutPage } from './../about/about';
 import { RequestdetailPage } from './../requestdetail/requestdetail';
 import { InvitedetailPage } from './../invitedetail/invitedetail';
@@ -5,7 +6,7 @@ import { Observable } from 'rxjs/Observable';
 import { HttpModule } from '@angular/http';
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, AlertController,App } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, AlertController, App, PopoverController } from 'ionic-angular';
 import { Events } from 'ionic-angular';
 import * as moment from 'moment';
 /**
@@ -25,7 +26,7 @@ export class RequestPage {
   receivedarray:Observable<Array<any>>;
   showemptylist:boolean;
   constructor(public navCtrl: NavController,private navParams: NavParams,private http: HttpClient,
-  private alertCtrl: AlertController,public events:Events,private app: App) {
+  private alertCtrl: AlertController,public events:Events,private app: App,private popoverCtrl:PopoverController) {
       console.log("all invitation obj",JSON.stringify(this.receivedarray));
             this.events.subscribe('requests:retrieved', (result, time) => {
               // user and time are the same arguments passed in `events.publish(user, time)`
@@ -37,6 +38,8 @@ export class RequestPage {
   }
 
 
+
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad RequestPage');
       
@@ -44,11 +47,11 @@ export class RequestPage {
 
   gotorequestdetail(object: inviteobject){
     this.app.getRootNavs()[0].push(RequestdetailPage,{hashstring:object.hashstring,paramObj:object},{animation: 'ios-transition'})
-}
+  }
 
-createNewInvite(){
-  console.log(" Create a new Invite to your estate");
-  this.app.getRootNavs()[0].push(AboutPage);
+  createNewInvite(){
+    console.log(" Create a new Invite to your estate");
+    this.app.getRootNavs()[0].push(AboutPage);
   }
 
  calctimeleft(timestring: string){

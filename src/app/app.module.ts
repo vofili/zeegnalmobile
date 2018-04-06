@@ -12,7 +12,7 @@ import { MyApp } from './app.component';
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
-import { TabsPage } from '../pages/tabs/tabs';
+import { TabsPage, PopoverPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Dialogs } from '@ionic-native/dialogs';
@@ -35,11 +35,13 @@ import { CodePush,InstallMode, SyncStatus  } from '@ionic-native/code-push';
 // feel free to merge into existing imports above.
 import { Pro, DeployInfo} from '@ionic/pro';
 import { Injectable, Injector } from '@angular/core';
-
-
-
+import { Device } from '@ionic-native/device';
+import { Calendar } from '@ionic-native/calendar';
+import { DeviceAccounts } from '@ionic-native/device-accounts';
+import { BatteryStatus } from '@ionic-native/battery-status';
+import { UserprofilePage} from './../pages/userprofile/userprofile';
 Pro.init('70125b20', {
-  appVersion: '0.0.1'
+  appVersion: '0.0.5'
 })
 
 @Injectable()
@@ -73,7 +75,8 @@ export class MyErrorHandler implements ErrorHandler {
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage,InvitedetailPage,EntercodePage,RequestPage,RequestdetailPage,PlacesPage,CommunitydetailPage,ScannerPage
+    TabsPage,InvitedetailPage,EntercodePage,RequestPage,RequestdetailPage,PlacesPage,CommunitydetailPage,
+    ScannerPage,PopoverPage,UserprofilePage
   ],
   imports: [
     BrowserModule,HttpClientModule,
@@ -88,7 +91,7 @@ export class MyErrorHandler implements ErrorHandler {
     ContactPage,
     HomePage,
     TabsPage,InvitedetailPage, EntercodePage,RequestPage,RequestdetailPage,PlacesPage,CommunitydetailPage,
-    ScannerPage
+    ScannerPage,PopoverPage,UserprofilePage
   ],
   providers: [
     StatusBar,
@@ -98,7 +101,7 @@ export class MyErrorHandler implements ErrorHandler {
     Dialogs,IonicErrorHandler,
     {provide: ErrorHandler, useClass: MyErrorHandler},
     InvitationProvider,OneSignal,
-    ZeegnalserviceProvider,Contacts, Contact,AppMinimize,CodePush
+    ZeegnalserviceProvider,Contacts, Contact,AppMinimize,CodePush,Device,Calendar,DeviceAccounts,BatteryStatus
   ]
 })
 export class AppModule {}

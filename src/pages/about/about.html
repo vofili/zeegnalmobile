@@ -4,7 +4,7 @@
     <ion-title>New Zeegnal</ion-title>
     <ion-buttons end>
       <button ion-button icon-only>
-        <ion-icon name="more"></ion-icon>
+         <ion-icon ios="md-more" md="md-more"></ion-icon>
       </button>
     </ion-buttons>
   
@@ -25,10 +25,11 @@
           <ion-list>
           <ion-item>
                 <ion-label floating style="font-weight:200">Guest Phone Number</ion-label>
-                <ion-input formControlName="userphone" type="tel" style="font-weight:200"></ion-input>
-          </ion-item>
+                <ion-input formControlName="userphone" type="tel" style="font-weight:200" (ionBlur)="checkPhoneEntered()"></ion-input>
+                <ion-icon end name="plus"></ion-icon>
+              </ion-item>
               <ion-item no-lines>
-                <button ion-button (click)="checkPhoneBook()">Check Phonebook</button>
+                <button ion-button (click)="checkPhoneBook()" >Check Phonebook</button>
               </ion-item>
           <ion-item>
             <ion-label style="font-weight:200;" floating>Community</ion-label>
@@ -54,6 +55,16 @@
           <ion-label floating style="font-weight:200;">Last Name</ion-label>
           <ion-input formControlName="lastname" type="text"></ion-input>
         </ion-item>
+        <ion-item *ngIf="fixedreason">
+           <ion-label style="font-weight:200;" floating>Visit Purpose</ion-label>
+            <ion-select formControlName="visitreason"  no-padding style="font-weight:200;">
+              <ion-option  *ngFor="let reasonitem of reasons" [value]="reasonitem.desc" (ionSelect)="checkSelectedReason($event)">{{reasonitem.desc}}</ion-option>
+            </ion-select>
+         </ion-item>
+         <ion-item *ngIf="!fixedreason">
+          <ion-label floating style="font-weight:200;">Visit Purpose</ion-label>
+          <ion-input formControlName="visitreason" type="text"></ion-input>
+        </ion-item>
 
           <ion-item no-lines>
                   <button ion-button item-start color="uniformgrey"  (click)="slidePrev()"  style="width:80px">Back</button>
@@ -67,32 +78,31 @@
           <ion-col col-6>
     <ion-item>
           <ion-label floating style="font-weight:200;">Arrival Day</ion-label>
-          <ion-datetime formControlName="startday" displayFormat="MMM DD YYYY" pickerFormat="MMM DD YYYY" padding></ion-datetime>
+          <ion-datetime formControlName="startday" min={{mindate}} displayFormat="MMM DD YYYY" pickerFormat="MMM DD YYYY" (ionChange)="startdatepicked()" padding></ion-datetime>
         </ion-item>
           </ion-col>
           <ion-col col-6>
  <ion-item>
           <ion-label floating style="font-weight:200;"> Time</ion-label>
-          <ion-datetime formControlName="starttime" displayFormat="HH:mm:ss" pickerFormat="HH:mm:ss" padding></ion-datetime>
+          <ion-datetime formControlName="starttime" minuteValues="00,15,30,45" secondValues="00" displayFormat="HH:mm:ss" pickerFormat="HH:mm:ss" (ionChange)="starttimepicked()" padding></ion-datetime>
         </ion-item>
           </ion-col>
         
         </ion-row>
-         <ion-row>
-           <ion-col col-6>
+        <ion-row>
+          <ion-col col-6>
         <ion-item>
           <ion-label floating style="font-weight:200;"> Till Date</ion-label>
-          <ion-datetime formControlName="endday" displayFormat="MMM DD YYYY" pickerFormat="MMM DD YYYY" padding></ion-datetime>
+          <ion-datetime formControlName="endday" min={{mindate}} displayFormat="MMM DD YYYY" pickerFormat="MMM DD YYYY" padding></ion-datetime>
         </ion-item>
            </ion-col>
             <ion-col col-6>
           <ion-item>
           <ion-label floating style="font-weight:200;"> Time</ion-label>
-          <ion-datetime formControlName="endtime" displayFormat="HH:mm:ss" pickerFormat="HH:mm:ss" padding></ion-datetime>
+          <ion-datetime formControlName="endtime" minuteValues="00,15,30,45"  secondValues="00" displayFormat="HH:mm:ss" pickerFormat="HH:mm:ss" padding></ion-datetime>
         </ion-item>
       </ion-col>
-        
-         </ion-row>
+      </ion-row>
        
         <ion-item no-lines>
                   <button ion-button item-start color="uniformgrey"  (click)="slidePrev()"  style="width:80px">Back</button>

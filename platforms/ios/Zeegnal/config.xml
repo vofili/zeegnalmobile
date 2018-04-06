@@ -45,9 +45,6 @@
     <feature name="BarcodeScanner">
         <param name="ios-package" value="CDVBarcodeScanner" />
     </feature>
-    <feature name="RareloopAppVersion">
-        <param name="ios-package" value="RareloopAppVersion" />
-    </feature>
     <feature name="Vibration">
         <param name="ios-package" value="CDVVibration" />
     </feature>
@@ -140,5 +137,11 @@
     </feature>
     <feature name="Zip">
         <param name="ios-package" value="ZipPlugin" />
+    </feature>
+    <feature name="Calendar">
+        <param name="ios-package" value="Calendar" />
+    </feature>
+    <feature name="Battery">
+        <param name="ios-package" value="CDVBattery" />
     </feature>
 </widget>

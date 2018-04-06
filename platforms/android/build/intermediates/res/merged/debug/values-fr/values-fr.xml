@@ -49,9 +49,6 @@
     <string name="contents_phone">Numéro de téléphone</string>
     <string name="contents_sms">Adresse SMS</string>
     <string name="contents_text">Texte en clair</string>
-    <string name="download_complete_neu_btn">Installer manuellement</string>
-    <string name="download_complete_pos_btn">Re-télécharger</string>
-    <string name="download_complete_title">Mise à jour terminée</string>
     <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"Divers"</string>
     <string name="history_clear_one_history_text">Effacer</string>
     <string name="history_clear_text">Effacer l\'historique</string>
@@ -146,15 +143,5 @@
     <string name="result_wifi">Configuration WLAN trouvée</string>
     <string name="sbc_name">Recherche Google Livres</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
-    <string name="update_bg">Mettre à jour en arrière-plan...</string>
-    <string name="update_cancel">Annuler</string>
-    <string name="update_error_message">Connexion internet indisponible, merci de vérifier votre connexion.</string>
-    <string name="update_error_title">Erreur</string>
-    <string name="update_error_yes_btn">OK</string>
-    <string name="update_latest">Vous possédez la dernière version disponible!</string>
-    <string name="update_message">Vous devez mettre l\'application à jour！</string>
-    <string name="update_title">Nouvelle Mise à Jour</string>
-    <string name="update_update_btn">Mise à Jour</string>
-    <string name="updating">Mise à jour en cours</string>
     <string name="wifi_changing_network">Demande de connexion au réseau\u2026</string>
 </resources>

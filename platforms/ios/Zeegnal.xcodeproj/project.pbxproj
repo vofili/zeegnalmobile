@@ -27,7 +27,6 @@
 		219F0EE0E466408C8BE7A3D3 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 6809B9889717417683B1ADD4 /* inftrees.c */; };
 		2A98F777D1D9B63261E2B6AD /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 506AA983A9B677674C911F73 /* libPods-OneSignalNotificationServiceExtension.a */; };
 		2B849ABE3B9F4D97B14D0477 /* IonicDeploy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5271EBDC2204D349461249D /* IonicDeploy.m */; };
-		2C9FF20E7B7340BB8C44A496 /* RareloopAppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = F32CE0FCD2C542A3BDC84C6E /* RareloopAppVersion.m */; };
 		2CBFB2F424A548E1A04F59D9 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 81BDC186576F4F6C9E2E50A7 /* uncompr.c */; };
 		2E60B4133AA2420B97BCE7E1 /* UNIHTTPStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DAF8690EE048A8969C401B /* UNIHTTPStringResponse.m */; };
 		2EA4AB7F759E4FB8BAF9B86F /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = D487A3A4AB9E48CAAB365719 /* gzclose.c */; };
@@ -154,6 +153,10 @@
 		5847CE31DA054C8AA986BACB /* mztools.c in Resources */ = {isa = PBXBuildFile; fileRef = 106E71DDDE1F459C8FA9BD6C /* mztools.c */; };
 		15DAA4E1868B4BA9A28A21CA /* ioapi.c in Resources */ = {isa = PBXBuildFile; fileRef = A3C462F87F0C442CB5439F93 /* ioapi.c */; };
 		65116AF4DD6444359FF8F526 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB8E14FABA349A48721C298 /* libz.dylib */; };
+		4449F08565C9420198C97403 /* Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 98065BF1B92E472888151D4F /* Calendar.m */; };
+		22CE0B5F4B2344948EEA1263 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A894F41BC63F4E8B8B53C01F /* EventKit.framework */; };
+		5CAB2DC6F4DE45EE9775AA1D /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C95D37635C64142B7BD660F /* EventKitUI.framework */; };
+		A581F14662AD43DC8437467C /* CDVBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3590ED52A79849A090727E25 /* CDVBattery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -322,7 +325,6 @@
 		8C691D520FAB4F48B11936A1 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = "cordova-plugin-ionic-webview/GCDWebServerMultiPartFormRequest.h"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Zeegnal-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Zeegnal-Info.plist"; path = "Zeegnal/Zeegnal-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
 		8E00A2F5A8E64DDDB8B032FF /* deflate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = deflate.h; path = "cordova-plugin-ionic/deflate.h"; sourceTree = "<group>"; };
-		91876ADE2E224017BA897188 /* RareloopAppVersion.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RareloopAppVersion.h; path = "cordova-plugin-appversion/RareloopAppVersion.h"; sourceTree = "<group>"; };
 		9439C928F9AC47339671431E /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = "cordova-plugin-ionic-webview/GCDWebServerFileRequest.m"; sourceTree = "<group>"; };
 		94858CB152EF4CE2B9BB1C61 /* AddressBook.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		9EB2AFAE1D4D4E19B7B09146 /* gzread.c */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = gzread.c; path = "cordova-plugin-ionic/gzread.c"; sourceTree = "<group>"; };
@@ -373,7 +375,6 @@
 		ED7A225CBE574E489AD663D0 /* UNIBodyRequest.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = UNIBodyRequest.h; path = "cordova-plugin-ionic/UNIBodyRequest.h"; sourceTree = "<group>"; };
 		EED36E22657E4D84BFFA0894 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = "cordova-plugin-ionic-webview/GCDWebServerPrivate.h"; sourceTree = "<group>"; };
 		EFDDC6878AF147E893D47277 /* compress.c */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = compress.c; path = "cordova-plugin-ionic/compress.c"; sourceTree = "<group>"; };
-		F32CE0FCD2C542A3BDC84C6E /* RareloopAppVersion.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RareloopAppVersion.m; path = "cordova-plugin-appversion/RareloopAppVersion.m"; sourceTree = "<group>"; };
 		F385990EEA1F4D67AAC63141 /* inflate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = inflate.h; path = "cordova-plugin-ionic/inflate.h"; sourceTree = "<group>"; };
 		F72BFA829C9B4189A9214619 /* WebKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		F760F82A16454EA1BF07AEEF /* CDVVibration.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVVibration.h; path = "cordova-plugin-vibration/CDVVibration.h"; sourceTree = "<group>"; };
@@ -495,6 +496,12 @@
 		4788FD74A1C24484BCA5DDF1 /* ioapi.h */ = {isa = PBXFileReference; name = "ioapi.h"; path = "cordova-plugin-zip/Plugins/minizip/ioapi.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		D40ECA9085884414BBD7731D /* crypt.h */ = {isa = PBXFileReference; name = "crypt.h"; path = "cordova-plugin-zip/Plugins/minizip/crypt.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		3DB8E14FABA349A48721C298 /* libz.dylib */ = {isa = PBXFileReference; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = compiled.mach-o.dylib; explicitFileType = undefined; includeInIndex = 0; };
+		98065BF1B92E472888151D4F /* Calendar.m */ = {isa = PBXFileReference; name = "Calendar.m"; path = "cordova-plugin-calendar/Calendar.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		56BEC9BAF64049A39EBC32C7 /* Calendar.h */ = {isa = PBXFileReference; name = "Calendar.h"; path = "cordova-plugin-calendar/Calendar.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		A894F41BC63F4E8B8B53C01F /* EventKit.framework */ = {isa = PBXFileReference; name = "EventKit.framework"; path = "System/Library/Frameworks/EventKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		4C95D37635C64142B7BD660F /* EventKitUI.framework */ = {isa = PBXFileReference; name = "EventKitUI.framework"; path = "System/Library/Frameworks/EventKitUI.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		3590ED52A79849A090727E25 /* CDVBattery.m */ = {isa = PBXFileReference; name = "CDVBattery.m"; path = "cordova-plugin-battery-status/CDVBattery.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A1034F6A62DE42088D0A2ADC /* CDVBattery.h */ = {isa = PBXFileReference; name = "CDVBattery.h"; path = "cordova-plugin-battery-status/CDVBattery.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -517,6 +524,8 @@
 				136B0378A167CD0DAF85445E /* libPods-Zeegnal.a in Frameworks */,
 				B7E4FF08CA6B440D8A719E51 /* SystemConfiguration.framework in Frameworks */,
 				65116AF4DD6444359FF8F526 /* libz.dylib in Frameworks */,
+				22CE0B5F4B2344948EEA1263 /* EventKit.framework in Frameworks */,
+				5CAB2DC6F4DE45EE9775AA1D /* EventKitUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +631,8 @@
 				D05E895F8EB5B4F63BC86EEB /* libPods-Zeegnal.a */,
 				631ED61C12A645D5918F29B9 /* SystemConfiguration.framework */,
 				3DB8E14FABA349A48721C298 /* libz.dylib */,
+				A894F41BC63F4E8B8B53C01F /* EventKit.framework */,
+				4C95D37635C64142B7BD660F /* EventKitUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -701,8 +712,6 @@
 				A081BF85758E4D66A276664A /* CDVBarcodeScanner.mm */,
 				FC049DC35062450AA2C91307 /* zxing-all-in-one.cpp */,
 				87B274BE1833475895312040 /* zxing-all-in-one.h */,
-				F32CE0FCD2C542A3BDC84C6E /* RareloopAppVersion.m */,
-				91876ADE2E224017BA897188 /* RareloopAppVersion.h */,
 				4E95342C268145B198457297 /* CDVVibration.m */,
 				F760F82A16454EA1BF07AEEF /* CDVVibration.h */,
 				D13E7C1B67B34B3FA3FB52A8 /* CDVSplashScreen+IonicDeploy.m */,
@@ -893,6 +902,10 @@
 				074FD0C0EE644C1F8F0BC06D /* mztools.h */,
 				4788FD74A1C24484BCA5DDF1 /* ioapi.h */,
 				D40ECA9085884414BBD7731D /* crypt.h */,
+				98065BF1B92E472888151D4F /* Calendar.m */,
+				56BEC9BAF64049A39EBC32C7 /* Calendar.h */,
+				3590ED52A79849A090727E25 /* CDVBattery.m */,
+				A1034F6A62DE42088D0A2ADC /* CDVBattery.h */,
 			);
 			name = Plugins;
 			path = Zeegnal/Plugins;
@@ -1199,7 +1212,6 @@
 				0F13C9CF5D734D3F92E8505A /* CDVViewController+SplashScreen.m in Sources */,
 				092AC49144334729A0A2EB72 /* CDVBarcodeScanner.mm in Sources */,
 				8B3D45DBAA8E4C59BCD292BF /* zxing-all-in-one.cpp in Sources */,
-				2C9FF20E7B7340BB8C44A496 /* RareloopAppVersion.m in Sources */,
 				5AC366D6947E46FCA57C6B16 /* CDVVibration.m in Sources */,
 				BCE2A4A616394538AEA292E9 /* CDVSplashScreen+IonicDeploy.m in Sources */,
 				986C2BCB0F2A4980B5782E4D /* IonicConstant.m in Sources */,
@@ -1291,6 +1303,8 @@
 				49DEAFF97971495F9AE44A76 /* unzip.c in Resources */,
 				5847CE31DA054C8AA986BACB /* mztools.c in Resources */,
 				15DAA4E1868B4BA9A28A21CA /* ioapi.c in Resources */,
+				4449F08565C9420198C97403 /* Calendar.m in Sources */,
+				A581F14662AD43DC8437467C /* CDVBattery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

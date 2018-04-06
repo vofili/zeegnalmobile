@@ -49,10 +49,6 @@
     <string name="contents_phone">Номер телефона</string>
     <string name="contents_sms">Адрес для SMS</string>
     <string name="contents_text">Текст</string>
-    <string name="download_complete">Скачивание завершено</string>
-    <string name="download_complete_neu_btn">Установить вручную</string>
-    <string name="download_complete_pos_btn">Скачать заново</string>
-    <string name="download_complete_title">Скачивание завершено</string>
     <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"Другое"</string>
     <string name="history_clear_one_history_text">Удалить</string>
     <string name="history_clear_text">Удалить историю</string>
@@ -147,15 +143,5 @@
     <string name="result_wifi">Найдена конфигурация сети</string>
     <string name="sbc_name">Поиск книг Google</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
-    <string name="update_bg">Обновить в фоне</string>
-    <string name="update_cancel">Отмена</string>
-    <string name="update_error_message">Ошибка сети, проверьте настройки сети.</string>
-    <string name="update_error_title">Ошибка</string>
-    <string name="update_error_yes_btn">Ок</string>
-    <string name="update_latest">Установлена последняя версия</string>
-    <string name="update_message">Требуется установить обновление!</string>
-    <string name="update_title">Новое обновление</string>
-    <string name="update_update_btn">Обновить</string>
-    <string name="updating">Обновляется</string>
     <string name="wifi_changing_network">Запрос подключения к сети\u2026</string>
 </resources>

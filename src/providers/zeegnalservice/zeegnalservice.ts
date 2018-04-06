@@ -16,8 +16,20 @@ export class ZeegnalserviceProvider {
     console.log('Hello ZeegnalserviceProvider Provider');
   }
 
+  customerfirstname:string;
+  customerlastname: string;
+
   receivedrequests:[{}];
   receivedinvites: [{}];
+
+  getZeegnalNameEnquiry(phone){
+    let epobj = {source:"MOBILE",transid:getguid(),sessid:getguid(),phonenumber:phone};
+    console.log("Endpoint Request Object");
+    console.log(JSON.stringify(epobj));
+    let epurl ="http://35.164.119.185:8080/zeegnal/api/operations/customerstatus"; 
+
+      return this.http.post(epurl,epobj);
+    }
 
   getRandomUser(){
     return this.http.get("https://randomuser.me/api/").map(data => data);
@@ -52,6 +64,17 @@ export class ZeegnalserviceProvider {
           return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
   }
 }
+
+
+
+export function   getguid() {
+          function s4() {
+            return Math.floor((1 + Math.random()) * 0x10000)
+              .toString(16)
+              .substring(1);
+          }
+          return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
+  }
 
 export class ZeegnalRequst{
      invitestart: String;

@@ -1,7 +1,8 @@
+import { PopoverPage } from './../tabs/tabs';
 import { EntercodePage } from './../entercode/entercode';
 import { inviteobject } from './../home/home';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, PopoverController } from 'ionic-angular';
 import { NgxQRCodeModule } from 'ngx-qrcode2';
 import * as moment from 'moment';
 /**
@@ -22,7 +23,7 @@ export class InvitedetailPage {
   startdate:string;
   enddate:string;
   arrivaltimestatus:boolean;
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,private popoverCtrl: PopoverController) {
     this.hashstring = this.navParams.get('hashstring');
     this.parObj = this.navParams.get('paramObj');
     let startMoment: moment.Moment = moment(this.parObj.invitestart);
@@ -43,5 +44,13 @@ export class InvitedetailPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad InvitedetailPage');
   }
+
+    presentPopover(myevent){
+          console.log(myevent);
+          let popover = this.popoverCtrl.create(PopoverPage);
+          popover.present({
+              ev: myevent
+          });
+    }
 
 }

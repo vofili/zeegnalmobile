@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.qucoon.mboile.zeegnalapp" version="0.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.qucoon.mboile.zeegnalapp" version="0.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
@@ -26,10 +26,6 @@
     <feature name="AppMinimize">
         <param name="android-package" value="tomloprod.AppMinimize" />
     </feature>
-    <feature name="AppUpdate">
-        <param name="android-package" value="com.vaenow.appupdate.android.CheckAppUpdate" />
-        <param name="onload" value="true" />
-    </feature>
     <feature name="OneSignalPush">
         <param name="android-package" value="com.plugin.gcm.OneSignalPush" />
     </feature>
@@ -41,14 +37,20 @@
     <feature name="FileTransfer">
         <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
     </feature>
+    <feature name="Calendar">
+        <param name="android-package" value="nl.xservices.plugins.Calendar" />
+    </feature>
+    <feature name="DeviceAccounts">
+        <param name="android-package" value="com.danielsogl.cordova.deviceaccounts" />
+    </feature>
+    <feature name="Battery">
+        <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
+    </feature>
     <feature name="Zip">
         <param name="android-package" value="org.apache.cordova.Zip" />
     </feature>
     <feature name="Keyboard">
         <param name="android-package" onload="true" value="io.ionic.keyboard.IonicKeyboard" />
-    </feature>
-    <feature name="RareloopAppVersion">
-        <param name="android-package" value="com.rareloop.cordova.appversion.RareloopAppVersion" />
     </feature>
     <feature name="IonicCordovaCommon">
         <param name="android-package" onload="true" value="com.ionicframework.common.IonicCordovaCommon" />
@@ -72,7 +74,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <variable name="CONTACTS_USAGE_DESCRIPTION" value="Zeegnal needs access to your Contacts in order to provide a personalized user experience." />
+    <variable name="CONTACTS_USAGE_DESCRIPTION" value="Zeegnal needs access to your Contacts to provide a personalized user experience." />
     <allow-intent href="market:*" />
     <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
     <icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />

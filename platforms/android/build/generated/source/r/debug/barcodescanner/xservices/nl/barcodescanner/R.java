@@ -51,70 +51,70 @@ public final class R {
 		public static final int toggle_torch = 0x7f020024;
 	}
 	public static final class id {
-		public static final int action0 = 0x7f0d0035;
-		public static final int action_divider = 0x7f0d0039;
+		public static final int action0 = 0x7f0d0034;
+		public static final int action_divider = 0x7f0d0038;
 		public static final int app_picker_list_item_icon = 0x7f0d001a;
 		public static final int app_picker_list_item_label = 0x7f0d001b;
-		public static final int barcode_image_view = 0x7f0d0022;
-		public static final int bookmark_title = 0x7f0d001d;
-		public static final int bookmark_url = 0x7f0d001e;
-		public static final int cancel_action = 0x7f0d0036;
-		public static final int chronometer = 0x7f0d003e;
-		public static final int contents_supplement_text_view = 0x7f0d0029;
-		public static final int contents_text_view = 0x7f0d0028;
+		public static final int barcode_image_view = 0x7f0d0021;
+		public static final int bookmark_title = 0x7f0d001c;
+		public static final int bookmark_url = 0x7f0d001d;
+		public static final int cancel_action = 0x7f0d0035;
+		public static final int chronometer = 0x7f0d003d;
+		public static final int contents_supplement_text_view = 0x7f0d0028;
+		public static final int contents_text_view = 0x7f0d0027;
 		public static final int decode = 0x7f0d0000;
 		public static final int decode_failed = 0x7f0d0001;
 		public static final int decode_succeeded = 0x7f0d0002;
-		public static final int end_padder = 0x7f0d0045;
-		public static final int flip_button = 0x7f0d002c;
-		public static final int format_text_view = 0x7f0d0023;
-		public static final int help_contents = 0x7f0d002f;
-		public static final int history_detail = 0x7f0d0031;
-		public static final int history_title = 0x7f0d0030;
-		public static final int icon = 0x7f0d0040;
-		public static final int image_view = 0x7f0d002e;
-		public static final int info = 0x7f0d003f;
+		public static final int end_padder = 0x7f0d0044;
+		public static final int flip_button = 0x7f0d002b;
+		public static final int format_text_view = 0x7f0d0022;
+		public static final int help_contents = 0x7f0d002e;
+		public static final int history_detail = 0x7f0d0030;
+		public static final int history_title = 0x7f0d002f;
+		public static final int icon = 0x7f0d003f;
+		public static final int image_view = 0x7f0d002d;
+		public static final int info = 0x7f0d003e;
 		public static final int launch_product_query = 0x7f0d0003;
 		public static final int line1 = 0x7f0d0004;
 		public static final int line3 = 0x7f0d0005;
-		public static final int media_actions = 0x7f0d0038;
-		public static final int menu_encode = 0x7f0d0059;
-		public static final int menu_help = 0x7f0d0058;
-		public static final int menu_history = 0x7f0d0056;
-		public static final int menu_history_clear_text = 0x7f0d005b;
-		public static final int menu_history_send = 0x7f0d005a;
-		public static final int menu_settings = 0x7f0d0057;
-		public static final int menu_share = 0x7f0d0055;
-		public static final int meta_text_view = 0x7f0d0027;
-		public static final int meta_text_view_label = 0x7f0d0026;
+		public static final int media_actions = 0x7f0d0037;
+		public static final int menu_encode = 0x7f0d0058;
+		public static final int menu_help = 0x7f0d0057;
+		public static final int menu_history = 0x7f0d0055;
+		public static final int menu_history_clear_text = 0x7f0d005a;
+		public static final int menu_history_send = 0x7f0d0059;
+		public static final int menu_settings = 0x7f0d0056;
+		public static final int menu_share = 0x7f0d0054;
+		public static final int meta_text_view = 0x7f0d0026;
+		public static final int meta_text_view_label = 0x7f0d0025;
 		public static final int none = 0x7f0d0013;
 		public static final int normal = 0x7f0d0010;
-		public static final int page_number_view = 0x7f0d004e;
-		public static final int preview_view = 0x7f0d001f;
-		public static final int query_button = 0x7f0d004c;
-		public static final int query_text_view = 0x7f0d004b;
+		public static final int page_number_view = 0x7f0d004d;
+		public static final int preview_view = 0x7f0d001e;
+		public static final int query_button = 0x7f0d004b;
+		public static final int query_text_view = 0x7f0d004a;
 		public static final int quit = 0x7f0d0006;
 		public static final int restart_preview = 0x7f0d0007;
-		public static final int result_button_view = 0x7f0d002a;
-		public static final int result_list_view = 0x7f0d004d;
-		public static final int result_view = 0x7f0d0021;
+		public static final int result_button_view = 0x7f0d0029;
+		public static final int result_list_view = 0x7f0d004c;
+		public static final int result_view = 0x7f0d0020;
 		public static final int return_scan_result = 0x7f0d0008;
-		public static final int share_app_button = 0x7f0d0050;
-		public static final int share_bookmark_button = 0x7f0d0051;
-		public static final int share_clipboard_button = 0x7f0d0053;
-		public static final int share_contact_button = 0x7f0d0052;
-		public static final int share_text_view = 0x7f0d0054;
-		public static final int snippet_view = 0x7f0d004f;
-		public static final int status_bar_latest_event_content = 0x7f0d0037;
-		public static final int status_view = 0x7f0d002b;
+		public static final int share_app_button = 0x7f0d004f;
+		public static final int share_bookmark_button = 0x7f0d0050;
+		public static final int share_clipboard_button = 0x7f0d0052;
+		public static final int share_contact_button = 0x7f0d0051;
+		public static final int share_text_view = 0x7f0d0053;
+		public static final int snippet_view = 0x7f0d004e;
+		public static final int status_bar_latest_event_content = 0x7f0d0036;
+		public static final int status_view = 0x7f0d002a;
 		public static final int text = 0x7f0d0009;
 		public static final int text2 = 0x7f0d000a;
-		public static final int time = 0x7f0d003d;
-		public static final int time_text_view = 0x7f0d0025;
+		public static final int time = 0x7f0d003c;
+		public static final int time_text_view = 0x7f0d0024;
 		public static final int title = 0x7f0d000b;
-		public static final int torch_button = 0x7f0d002d;
-		public static final int type_text_view = 0x7f0d0024;
-		public static final int viewfinder_view = 0x7f0d0020;
+		public static final int torch_button = 0x7f0d002c;
+		public static final int type_text_view = 0x7f0d0023;
+		public static final int viewfinder_view = 0x7f0d001f;
 	}
 	public static final class integer {
 		public static final int cancel_button_image_alpha = 0x7f0e0000;
@@ -122,22 +122,22 @@ public final class R {
 	}
 	public static final class layout {
 		public static final int app_picker_list_item = 0x7f040000;
-		public static final int bookmark_picker_list_item = 0x7f040002;
-		public static final int capture = 0x7f040003;
-		public static final int encode = 0x7f040004;
-		public static final int help = 0x7f040005;
-		public static final int history_list_item = 0x7f040006;
-		public static final int notification_media_action = 0x7f040009;
-		public static final int notification_media_cancel_action = 0x7f04000a;
-		public static final int notification_template_big_media = 0x7f04000b;
-		public static final int notification_template_big_media_narrow = 0x7f04000d;
-		public static final int notification_template_media = 0x7f040012;
-		public static final int notification_template_part_chronometer = 0x7f040014;
-		public static final int notification_template_part_time = 0x7f040015;
-		public static final int search_book_contents = 0x7f040017;
-		public static final int search_book_contents_header = 0x7f040018;
-		public static final int search_book_contents_list_item = 0x7f040019;
-		public static final int share = 0x7f04001a;
+		public static final int bookmark_picker_list_item = 0x7f040001;
+		public static final int capture = 0x7f040002;
+		public static final int encode = 0x7f040003;
+		public static final int help = 0x7f040004;
+		public static final int history_list_item = 0x7f040005;
+		public static final int notification_media_action = 0x7f040008;
+		public static final int notification_media_cancel_action = 0x7f040009;
+		public static final int notification_template_big_media = 0x7f04000a;
+		public static final int notification_template_big_media_narrow = 0x7f04000c;
+		public static final int notification_template_media = 0x7f040011;
+		public static final int notification_template_part_chronometer = 0x7f040013;
+		public static final int notification_template_part_time = 0x7f040014;
+		public static final int search_book_contents = 0x7f040016;
+		public static final int search_book_contents_header = 0x7f040017;
+		public static final int search_book_contents_list_item = 0x7f040018;
+		public static final int share = 0x7f040019;
 	}
 	public static final class menu {
 		public static final int capture = 0x7f0f0000;
@@ -148,7 +148,7 @@ public final class R {
 		public static final int beep = 0x7f060000;
 	}
 	public static final class string {
-		public static final int app_name = 0x7f0700a0;
+		public static final int app_name = 0x7f070092;
 		public static final int app_picker_name = 0x7f070014;
 		public static final int bookmark_picker_name = 0x7f070015;
 		public static final int button_add_calendar = 0x7f070016;
@@ -283,6 +283,6 @@ public final class R {
 	public static final class styleable {
 	}
 	public static final class xml {
-		public static final int preferences = 0x7f050002;
+		public static final int preferences = 0x7f050001;
 	}
 }

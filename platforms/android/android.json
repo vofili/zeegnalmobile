@@ -41,10 +41,6 @@
               "count": 1
             },
             {
-              "xml": "<feature name=\"AppUpdate\"><param name=\"android-package\" value=\"com.vaenow.appupdate.android.CheckAppUpdate\" /><param name=\"onload\" value=\"true\" /></feature>",
-              "count": 1
-            },
-            {
               "xml": "<feature name=\"OneSignalPush\"><param name=\"android-package\" value=\"com.plugin.gcm.OneSignalPush\" /></feature>",
               "count": 1
             },
@@ -58,6 +54,18 @@
             },
             {
               "xml": "<feature name=\"FileTransfer\"><param name=\"android-package\" value=\"org.apache.cordova.filetransfer.FileTransfer\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Calendar\"><param name=\"android-package\" value=\"nl.xservices.plugins.Calendar\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"DeviceAccounts\"><param name=\"android-package\" value=\"com.danielsogl.cordova.deviceaccounts\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Battery\"><param name=\"android-package\" value=\"org.apache.cordova.batterystatus.BatteryListener\" /></feature>",
               "count": 1
             }
           ],
@@ -74,10 +82,6 @@
           "/*": [
             {
               "xml": "<feature name=\"Keyboard\"><param name=\"android-package\" onload=\"true\" value=\"io.ionic.keyboard.IonicKeyboard\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"RareloopAppVersion\"><param name=\"android-package\" value=\"com.rareloop.cordova.appversion.RareloopAppVersion\" /></feature>",
               "count": 1
             },
             {
@@ -104,10 +108,6 @@
             },
             {
               "xml": "<activity android:label=\"Share\" android:name=\"com.google.zxing.client.android.encode.EncodeActivity\" />",
-              "count": 1
-            },
-            {
-              "xml": "<provider android:authorities=\"${applicationId}.appupdate.provider\" android:exported=\"false\" android:grantUriPermissions=\"true\" android:name=\"com.vaenow.appupdate.android.GenericFileProvider\"><meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"@xml/appupdate_paths\" /></provider>",
               "count": 1
             },
             {
@@ -151,6 +151,18 @@
             {
               "xml": "<uses-permission android:name=\"com.qucoon.mboile.zeegnalapp.permission.RECEIVE_ADM_MESSAGE\" />",
               "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.READ_CALENDAR\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.WRITE_CALENDAR\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />",
+              "count": 1
             }
           ],
           "/*": [
@@ -171,16 +183,8 @@
               "count": 1
             },
             {
-              "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
-              "count": 1
-            },
-            {
               "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
-              "count": 3
-            },
-            {
-              "xml": "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\" />",
-              "count": 1
+              "count": 2
             }
           ]
         }
@@ -249,12 +253,6 @@
     "cordova-plugin-appminimize": {
       "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
     },
-    "cordova-plugin-appversion": {
-      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
-    },
-    "cordova-plugin-app-update": {
-      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
-    },
     "cordova-plugin-vibration": {
       "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
     },
@@ -283,6 +281,15 @@
       "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
     },
     "cordova-plugin-zip": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-calendar": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "com.danielsogl.cordova.deviceaccounts": {
+      "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
+    },
+    "cordova-plugin-battery-status": {
       "PACKAGE_NAME": "com.qucoon.mboile.zeegnalapp"
     }
   },
@@ -435,22 +442,6 @@
       "pluginId": "cordova-plugin-appminimize",
       "clobbers": [
         "cordova.plugins.appMinimize"
-      ]
-    },
-    {
-      "id": "cordova-plugin-appversion.RareloopAppVersion",
-      "file": "plugins/cordova-plugin-appversion/www/app-version.js",
-      "pluginId": "cordova-plugin-appversion",
-      "clobbers": [
-        "AppVersion"
-      ]
-    },
-    {
-      "id": "cordova-plugin-app-update.AppUpdate",
-      "file": "plugins/cordova-plugin-app-update/www/AppUpdate.js",
-      "pluginId": "cordova-plugin-app-update",
-      "clobbers": [
-        "AppUpdate"
       ]
     },
     {
@@ -750,6 +741,30 @@
       "clobbers": [
         "zip"
       ]
+    },
+    {
+      "id": "cordova-plugin-calendar.Calendar",
+      "file": "plugins/cordova-plugin-calendar/www/Calendar.js",
+      "pluginId": "cordova-plugin-calendar",
+      "clobbers": [
+        "Calendar"
+      ]
+    },
+    {
+      "id": "com.danielsogl.cordova.deviceaccounts.DeviceAccounts",
+      "file": "plugins/com.danielsogl.cordova.deviceaccounts/www/DeviceAccounts.js",
+      "pluginId": "com.danielsogl.cordova.deviceaccounts",
+      "clobbers": [
+        "plugins.DeviceAccounts"
+      ]
+    },
+    {
+      "id": "cordova-plugin-battery-status.battery",
+      "file": "plugins/cordova-plugin-battery-status/www/battery.js",
+      "pluginId": "cordova-plugin-battery-status",
+      "clobbers": [
+        "navigator.battery"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -763,8 +778,6 @@
     "cordova-plugin-sim": "1.3.3",
     "cordova-plugin-contacts": "3.0.1",
     "cordova-plugin-appminimize": "1.0",
-    "cordova-plugin-appversion": "1.0.0",
-    "cordova-plugin-app-update": "1.5.4",
     "cordova-plugin-vibration": "3.0.1",
     "cordova-plugin-ionic": "4.1.3",
     "onesignal-cordova-plugin": "2.3.3",
@@ -772,6 +785,9 @@
     "cordova-plugin-code-push": "1.11.7",
     "cordova-plugin-file": "4.3.3",
     "cordova-plugin-file-transfer": "1.6.3",
-    "cordova-plugin-zip": "3.1.0"
+    "cordova-plugin-zip": "3.1.0",
+    "cordova-plugin-calendar": "5.0.0",
+    "com.danielsogl.cordova.deviceaccounts": "1.0.0",
+    "cordova-plugin-battery-status": "2.0.1"
   }
 }

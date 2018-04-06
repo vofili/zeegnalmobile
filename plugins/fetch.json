@@ -79,14 +79,6 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-app-update": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-app-update"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-appversion": {
     "source": {
       "type": "registry",
@@ -166,6 +158,32 @@
     "source": {
       "type": "registry",
       "id": "cordova-plugin-zip@3.1.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-calendar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-calendar@^5.0.0"
+    },
+    "is_top_level": true,
+    "variables": {
+      "CALENDAR_USAGE_DESCRIPTION": "Zeegnal needs access to your Calendar to personlize your experience"
+    }
+  },
+  "com.danielsogl.cordova.deviceaccounts": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-device-accounts"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-battery-status": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-battery-status"
     },
     "is_top_level": true,
     "variables": {}

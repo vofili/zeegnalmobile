@@ -1,13 +1,9 @@
+import { PopoverPage } from './../tabs/tabs';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, PopoverController } from 'ionic-angular';
 import { NgxQRCodeModule } from 'ngx-qrcode2';
 import * as moment from 'moment';
-/**
- * Generated class for the CommunitydetailPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+
 
 @Component({
   selector: 'page-communitydetail',
@@ -17,7 +13,7 @@ export class CommunitydetailPage {
   hashstring:string;
   parObj:communityObject;
   items:any;
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,private popoverCtrl:PopoverController) {
 
      this.items = ["Surveys","Elections","Market Place","Make Payments","complaints"]
       this.parObj = this.navParams.get('paramObj');
@@ -26,6 +22,14 @@ export class CommunitydetailPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad CommunitydetailPage');
   }
+
+   presentPopover(myevent){
+          console.log(myevent);
+          let popover = this.popoverCtrl.create(PopoverPage);
+          popover.present({
+              ev: myevent
+          });
+    }
 
 }
 

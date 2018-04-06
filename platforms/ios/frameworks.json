@@ -11,5 +11,7 @@
     "QuartzCore.framework": 1,
     "CoreImage.framework": 1,
     "SystemConfiguration.framework": 1,
-    "libz.dylib": 1
+    "libz.dylib": 1,
+    "EventKit.framework": 1,
+    "EventKitUI.framework": 1
 }
